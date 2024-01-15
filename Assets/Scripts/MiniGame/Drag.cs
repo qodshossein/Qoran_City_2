@@ -2,12 +2,14 @@ using System.Collections;
 using System.Collections.Generic;
 using Tools;
 using UnityEngine;
+using UnityEngine.Events;
 
 namespace MiniGame
 {
     public class Drag : MonoBehaviour
     {
         [SerializeField] protected int targetLayerOrder;
+        public UnityEvent OnGrap;
 
         protected bool _select;
         protected Vector3 _firstPos;
@@ -18,7 +20,7 @@ namespace MiniGame
         public bool CanDrag { get; set; }
         protected virtual void Start()
         {
-            _firstPos = transform.position;
+            _firstPos = transform.localPosition;
             _collider = GetComponent<Collider2D>();
             _spriteRenderer = GetComponent<SpriteRenderer>();
 
@@ -41,6 +43,8 @@ namespace MiniGame
             _collider.enabled = false;
             if (_spriteRenderer)
                 _spriteRenderer.sortingOrder = targetLayerOrder;
+
+            OnGrap?.Invoke();
         }
         protected virtual void OnMouseUp()
         {
@@ -49,8 +53,6 @@ namespace MiniGame
 
             MouseData.DragObject = null;
             _collider.enabled = true;
-            if (_spriteRenderer)
-                _spriteRenderer.sortingOrder = _firstLayer;
         }
 
         protected virtual void Move()

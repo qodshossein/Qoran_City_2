@@ -2,13 +2,14 @@ using Manager;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using MiniGame.Finder;
 
 namespace MiniGame.Controller.IceCream
 {
     public class IceCream1Controller : MonoBehaviour
     {
         [SerializeField] private QueueController queueController;
-        [SerializeField] private SpriteFinding[] spriteFindings;
+        [SerializeField] private TypeFinder[] spriteFindings;
 
         private int _numberIceCream;
         private void Start()

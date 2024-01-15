@@ -7,6 +7,7 @@ namespace MiniGame
 {
     public class Slot : MonoBehaviour
     {
+        public bool JustOnDrop = true;
         public Transform TargetPosition;
         public bool CanDrop {  get; set; }
 
