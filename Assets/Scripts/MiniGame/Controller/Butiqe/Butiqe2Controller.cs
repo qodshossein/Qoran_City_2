@@ -10,20 +10,20 @@ namespace MiniGame.Controller.Butiqe
     {
         [SerializeField] private DragFindSprite[] cloths;
 
-        private int _numberIceCream;
+        private int _numberCloth;
         private void Start()
         {
             for (int i = 0; i < cloths.Length; i++)
             {
-                cloths[i].OnDrop.AddListener(OnSetIceCream);
+                cloths[i].OnDrop.AddListener(OnSetCloth);
             }
         }
-        private void OnSetIceCream()
+        private void OnSetCloth()
         {
-            _numberIceCream++;
+            _numberCloth++;
 
 
-            if (_numberIceCream >= cloths.Length)
+            if (_numberCloth >= cloths.Length)
             {
                 GameManager.Instance.LevelCompelet();
             }
