@@ -203,12 +203,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e9d435958c24644488133a8d5420fb04, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  failAnimation: 1
   targetLayerOrder: 2
+  animations: []
   OnGrap:
     m_PersistentCalls:
       m_Calls: []
-  failAnimation: 1
-  targetColor: 4
   OnRelese:
     m_PersistentCalls:
       m_Calls: []
@@ -227,6 +227,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+  targetColor: 4
 --- !u!114 &4367338493744378225
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -365,12 +366,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e9d435958c24644488133a8d5420fb04, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  failAnimation: 1
   targetLayerOrder: 2
+  animations: []
   OnGrap:
     m_PersistentCalls:
       m_Calls: []
-  failAnimation: 1
-  targetColor: 5
   OnRelese:
     m_PersistentCalls:
       m_Calls: []
@@ -389,6 +390,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+  targetColor: 5
 --- !u!114 &4367338493839806196
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -611,12 +613,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e9d435958c24644488133a8d5420fb04, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  failAnimation: 1
   targetLayerOrder: 2
+  animations: []
   OnGrap:
     m_PersistentCalls:
       m_Calls: []
-  failAnimation: 1
-  targetColor: 2
   OnRelese:
     m_PersistentCalls:
       m_Calls: []
@@ -635,6 +637,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+  targetColor: 2
 --- !u!114 &4367338493992483509
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -789,7 +792,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   SelfSprite: 0
-  targetSprite: {fileID: 0}
+  targetSprites: []
+  texts: []
   TargetColor: 2
   OnFindSprite:
     m_PersistentCalls:
@@ -919,12 +923,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e9d435958c24644488133a8d5420fb04, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  failAnimation: 1
   targetLayerOrder: 2
+  animations: []
   OnGrap:
     m_PersistentCalls:
       m_Calls: []
-  failAnimation: 1
-  targetColor: 2
   OnRelese:
     m_PersistentCalls:
       m_Calls: []
@@ -943,6 +947,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+  targetColor: 2
 --- !u!114 &4367338494066499095
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1081,12 +1086,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e9d435958c24644488133a8d5420fb04, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  failAnimation: 1
   targetLayerOrder: 2
+  animations: []
   OnGrap:
     m_PersistentCalls:
       m_Calls: []
-  failAnimation: 1
-  targetColor: 2
   OnRelese:
     m_PersistentCalls:
       m_Calls: []
@@ -1105,6 +1110,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+  targetColor: 2
 --- !u!114 &4367338494068784522
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1327,12 +1333,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e9d435958c24644488133a8d5420fb04, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  failAnimation: 1
   targetLayerOrder: 2
+  animations: []
   OnGrap:
     m_PersistentCalls:
       m_Calls: []
-  failAnimation: 1
-  targetColor: 4
   OnRelese:
     m_PersistentCalls:
       m_Calls: []
@@ -1351,6 +1357,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+  targetColor: 4
 --- !u!114 &4367338494696549696
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1489,10 +1496,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 4367338494836388959}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 814f9c20ef769c44a821908627506226, type: 3}
+  m_Script: {fileID: 11500000, guid: 2e1f3fafaf2c98543b6fd3d0c0aa004f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  iceCreams:
+  objectDrags:
   - {fileID: 4367338494696549709}
   - {fileID: 4367338495326430955}
   - {fileID: 4367338493744378226}
@@ -1501,6 +1508,10 @@ MonoBehaviour:
   - {fileID: 4367338494066499088}
   - {fileID: 4367338494068784535}
   - {fileID: 4367338493992483510}
+  objectFinder: []
+  collisionCheckers: []
+  cardChecker: {fileID: 0}
+  maxFind: 8
 --- !u!1 &4367338495168212260
 GameObject:
   m_ObjectHideFlags: 0
@@ -1642,7 +1653,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   SelfSprite: 0
-  targetSprite: {fileID: 0}
+  targetSprites: []
+  texts: []
   TargetColor: 5
   OnFindSprite:
     m_PersistentCalls:
@@ -1772,12 +1784,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e9d435958c24644488133a8d5420fb04, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  failAnimation: 1
   targetLayerOrder: 2
+  animations: []
   OnGrap:
     m_PersistentCalls:
       m_Calls: []
-  failAnimation: 1
-  targetColor: 4
   OnRelese:
     m_PersistentCalls:
       m_Calls: []
@@ -1796,6 +1808,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+  targetColor: 4
 --- !u!114 &4367338495326430958
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1950,7 +1963,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   SelfSprite: 0
-  targetSprite: {fileID: 0}
+  targetSprites: []
+  texts: []
   TargetColor: 4
   OnFindSprite:
     m_PersistentCalls:
@@ -2164,12 +2178,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e9d435958c24644488133a8d5420fb04, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  failAnimation: 1
   targetLayerOrder: 2
+  animations: []
   OnGrap:
     m_PersistentCalls:
       m_Calls: []
-  failAnimation: 1
-  targetColor: 5
   OnRelese:
     m_PersistentCalls:
       m_Calls: []
@@ -2188,6 +2202,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+  targetColor: 5
 --- !u!114 &4367338495601786303
 MonoBehaviour:
   m_ObjectHideFlags: 0

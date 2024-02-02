@@ -8,12 +8,18 @@ namespace MiniGame
     public class CollisionChecker : MonoBehaviour
     {
         [SerializeField] private string[] targetTags;
+        [SerializeField] private bool destroySelfObject;
+        [SerializeField] private bool destroyOtherObject;
         public UnityEvent OnHit;
 
         private void OnTriggerEnter2D(Collider2D other)
         {
             if(CheckTag(other.gameObject.tag)) 
             {
+                if(destroyOtherObject)
+                    Destroy(other.gameObject);
+                if (destroySelfObject)
+                    Destroy(gameObject);
                 OnHit?.Invoke();
             }
         }

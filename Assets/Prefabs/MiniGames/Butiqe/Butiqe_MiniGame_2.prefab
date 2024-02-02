@@ -270,11 +270,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b39c35fd8049e7847b2b700fbbcc1fa3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  failAnimation: 1
   targetLayerOrder: 1
+  animations: []
   OnGrap:
     m_PersistentCalls:
       m_Calls: []
-  failAnimation: 1
   OnRelese:
     m_PersistentCalls:
       m_Calls: []
@@ -591,11 +592,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b39c35fd8049e7847b2b700fbbcc1fa3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  failAnimation: 1
   targetLayerOrder: 1
+  animations: []
   OnGrap:
     m_PersistentCalls:
       m_Calls: []
-  failAnimation: 1
   OnRelese:
     m_PersistentCalls:
       m_Calls: []
@@ -1164,11 +1166,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b39c35fd8049e7847b2b700fbbcc1fa3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  failAnimation: 1
   targetLayerOrder: 1
+  animations: []
   OnGrap:
     m_PersistentCalls:
       m_Calls: []
-  failAnimation: 1
   OnRelese:
     m_PersistentCalls:
       m_Calls: []
@@ -1383,11 +1386,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b39c35fd8049e7847b2b700fbbcc1fa3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  failAnimation: 1
   targetLayerOrder: 1
+  animations: []
   OnGrap:
     m_PersistentCalls:
       m_Calls: []
-  failAnimation: 1
   OnRelese:
     m_PersistentCalls:
       m_Calls: []
@@ -1518,11 +1522,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b39c35fd8049e7847b2b700fbbcc1fa3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  failAnimation: 1
   targetLayerOrder: 1
+  animations: []
   OnGrap:
     m_PersistentCalls:
       m_Calls: []
-  failAnimation: 1
   OnRelese:
     m_PersistentCalls:
       m_Calls: []
@@ -2131,11 +2136,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b39c35fd8049e7847b2b700fbbcc1fa3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  failAnimation: 1
   targetLayerOrder: 1
+  animations: []
   OnGrap:
     m_PersistentCalls:
       m_Calls: []
-  failAnimation: 1
   OnRelese:
     m_PersistentCalls:
       m_Calls: []
@@ -2412,11 +2418,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b39c35fd8049e7847b2b700fbbcc1fa3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  failAnimation: 1
   targetLayerOrder: 1
+  animations: []
   OnGrap:
     m_PersistentCalls:
       m_Calls: []
-  failAnimation: 1
   OnRelese:
     m_PersistentCalls:
       m_Calls: []
@@ -2547,11 +2554,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b39c35fd8049e7847b2b700fbbcc1fa3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  failAnimation: 1
   targetLayerOrder: 1
+  animations: []
   OnGrap:
     m_PersistentCalls:
       m_Calls: []
-  failAnimation: 1
   OnRelese:
     m_PersistentCalls:
       m_Calls: []
@@ -2682,17 +2690,72 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b39c35fd8049e7847b2b700fbbcc1fa3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  failAnimation: 1
   targetLayerOrder: 1
+  animations: []
   OnGrap:
     m_PersistentCalls:
       m_Calls: []
-  failAnimation: 1
   OnRelese:
     m_PersistentCalls:
       m_Calls: []
   OnDrop:
     m_PersistentCalls:
       m_Calls: []
+--- !u!1 &3519581222502686693
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8430221649917225228}
+  - component: {fileID: 1563934405335766058}
+  m_Layer: 0
+  m_Name: RandomPosition
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8430221649917225228
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3519581222502686693}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 4949104685272010542}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1563934405335766058
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3519581222502686693}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d2058f90ee11d7d4f8b077ac430d0c65, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objects:
+  - {fileID: 304176790668916107}
+  - {fileID: 304176790261890827}
+  - {fileID: 304176790170501013}
+  - {fileID: 304176790792291042}
+  - {fileID: 304176790654543747}
+  - {fileID: 304176789015080354}
+  - {fileID: 304176789294131278}
+  - {fileID: 304176790733351935}
+  - {fileID: 304176789882538165}
 --- !u!1 &4949104683864738410
 GameObject:
   m_ObjectHideFlags: 0
@@ -2759,6 +2822,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 7716492474112956505}
+  - {fileID: 8430221649917225228}
   m_Father: {fileID: 4949104683864738411}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -2887,10 +2951,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 7716492474112956510}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f2ff955dfefea664991b3955804fed15, type: 3}
+  m_Script: {fileID: 11500000, guid: 2e1f3fafaf2c98543b6fd3d0c0aa004f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cloths:
+  objectDrags:
   - {fileID: 304176790668916100}
   - {fileID: 304176790261890820}
   - {fileID: 304176790170501014}
@@ -2900,6 +2964,9 @@ MonoBehaviour:
   - {fileID: 304176789294131279}
   - {fileID: 304176790733351928}
   - {fileID: 304176789882538166}
+  objectFinder: []
+  cardChecker: {fileID: 0}
+  maxFind: 9
 --- !u!1001 &2322100368714891297
 PrefabInstance:
   m_ObjectHideFlags: 0

@@ -280,11 +280,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b39c35fd8049e7847b2b700fbbcc1fa3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  failAnimation: 1
   targetLayerOrder: 5
+  animations: []
   OnGrap:
     m_PersistentCalls:
       m_Calls: []
-  failAnimation: 1
   OnRelese:
     m_PersistentCalls:
       m_Calls: []
@@ -476,11 +477,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b39c35fd8049e7847b2b700fbbcc1fa3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  failAnimation: 1
   targetLayerOrder: 1
+  animations: []
   OnGrap:
     m_PersistentCalls:
       m_Calls: []
-  failAnimation: 1
   OnRelese:
     m_PersistentCalls:
       m_Calls: []
@@ -521,7 +523,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4439532648798476635}
-  - component: {fileID: 4439532648798476634}
+  - component: {fileID: 8688798881913426340}
   m_Layer: 0
   m_Name: ButiqeController
   m_TagString: Untagged
@@ -544,7 +546,7 @@ Transform:
   m_Father: {fileID: 1307413970311155244}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &4439532648798476634
+--- !u!114 &8688798881913426340
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -553,14 +555,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 4439532648798476636}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1a144024f6052af439e6bd3630185b61, type: 3}
+  m_Script: {fileID: 11500000, guid: 2e1f3fafaf2c98543b6fd3d0c0aa004f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cloths:
-  - {fileID: 4439532649388204177}
-  - {fileID: 4439532648267162703}
-  - {fileID: 4439532648869227794}
-  - {fileID: 4439532649763687745}
+  objectDrags: []
+  objectFinder:
+  - {fileID: 4439532649959029925}
+  cardChecker: {fileID: 0}
+  maxFind: 4
 --- !u!1 &4439532648833261841
 GameObject:
   m_ObjectHideFlags: 0
@@ -686,11 +688,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b39c35fd8049e7847b2b700fbbcc1fa3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  failAnimation: 1
   targetLayerOrder: 1
+  animations: []
   OnGrap:
     m_PersistentCalls:
       m_Calls: []
-  failAnimation: 1
   OnRelese:
     m_PersistentCalls:
       m_Calls: []
@@ -847,11 +850,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b39c35fd8049e7847b2b700fbbcc1fa3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  failAnimation: 1
   targetLayerOrder: 1
+  animations: []
   OnGrap:
     m_PersistentCalls:
       m_Calls: []
-  failAnimation: 1
   OnRelese:
     m_PersistentCalls:
       m_Calls: []
@@ -1008,11 +1012,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b39c35fd8049e7847b2b700fbbcc1fa3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  failAnimation: 1
   targetLayerOrder: 1
+  animations: []
   OnGrap:
     m_PersistentCalls:
       m_Calls: []
-  failAnimation: 1
   OnRelese:
     m_PersistentCalls:
       m_Calls: []
@@ -1169,11 +1174,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b39c35fd8049e7847b2b700fbbcc1fa3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  failAnimation: 1
   targetLayerOrder: 1
+  animations: []
   OnGrap:
     m_PersistentCalls:
       m_Calls: []
-  failAnimation: 1
   OnRelese:
     m_PersistentCalls:
       m_Calls: []
@@ -1330,11 +1336,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b39c35fd8049e7847b2b700fbbcc1fa3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  failAnimation: 1
   targetLayerOrder: 1
+  animations: []
   OnGrap:
     m_PersistentCalls:
       m_Calls: []
-  failAnimation: 1
   OnRelese:
     m_PersistentCalls:
       m_Calls: []
@@ -1491,11 +1498,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b39c35fd8049e7847b2b700fbbcc1fa3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  failAnimation: 1
   targetLayerOrder: 5
+  animations: []
   OnGrap:
     m_PersistentCalls:
       m_Calls: []
-  failAnimation: 1
   OnRelese:
     m_PersistentCalls:
       m_Calls: []
@@ -1687,11 +1695,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b39c35fd8049e7847b2b700fbbcc1fa3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  failAnimation: 1
   targetLayerOrder: 1
+  animations: []
   OnGrap:
     m_PersistentCalls:
       m_Calls: []
-  failAnimation: 1
   OnRelese:
     m_PersistentCalls:
       m_Calls: []
@@ -1848,11 +1857,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b39c35fd8049e7847b2b700fbbcc1fa3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  failAnimation: 1
   targetLayerOrder: 5
+  animations: []
   OnGrap:
     m_PersistentCalls:
       m_Calls: []
-  failAnimation: 1
   OnRelese:
     m_PersistentCalls:
       m_Calls: []
@@ -2009,11 +2019,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b39c35fd8049e7847b2b700fbbcc1fa3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  failAnimation: 1
   targetLayerOrder: 5
+  animations: []
   OnGrap:
     m_PersistentCalls:
       m_Calls: []
-  failAnimation: 1
   OnRelese:
     m_PersistentCalls:
       m_Calls: []

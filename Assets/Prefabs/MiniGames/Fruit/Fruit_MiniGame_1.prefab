@@ -283,7 +283,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b39c35fd8049e7847b2b700fbbcc1fa3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  failAnimation: 1
   targetLayerOrder: 2
+  animations: []
   OnGrap:
     m_PersistentCalls:
       m_Calls:
@@ -299,7 +301,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-  failAnimation: 1
   OnRelese:
     m_PersistentCalls:
       m_Calls:
@@ -772,7 +773,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b39c35fd8049e7847b2b700fbbcc1fa3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  failAnimation: 1
   targetLayerOrder: 2
+  animations: []
   OnGrap:
     m_PersistentCalls:
       m_Calls:
@@ -788,7 +791,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-  failAnimation: 1
   OnRelese:
     m_PersistentCalls:
       m_Calls:
@@ -931,7 +933,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b39c35fd8049e7847b2b700fbbcc1fa3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  failAnimation: 1
   targetLayerOrder: 2
+  animations: []
   OnGrap:
     m_PersistentCalls:
       m_Calls:
@@ -947,7 +951,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-  failAnimation: 1
   OnRelese:
     m_PersistentCalls:
       m_Calls:
@@ -1225,6 +1228,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   SelfSprite: 1
   targetSprites: []
+  texts: []
   TargetColor: 0
   OnFindSprite:
     m_PersistentCalls:
@@ -1353,7 +1357,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b39c35fd8049e7847b2b700fbbcc1fa3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  failAnimation: 1
   targetLayerOrder: 2
+  animations: []
   OnGrap:
     m_PersistentCalls:
       m_Calls:
@@ -1369,7 +1375,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-  failAnimation: 1
   OnRelese:
     m_PersistentCalls:
       m_Calls:
@@ -1748,7 +1753,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b39c35fd8049e7847b2b700fbbcc1fa3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  failAnimation: 1
   targetLayerOrder: 2
+  animations: []
   OnGrap:
     m_PersistentCalls:
       m_Calls:
@@ -1764,7 +1771,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-  failAnimation: 1
   OnRelese:
     m_PersistentCalls:
       m_Calls:
@@ -1907,7 +1913,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b39c35fd8049e7847b2b700fbbcc1fa3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  failAnimation: 1
   targetLayerOrder: 2
+  animations: []
   OnGrap:
     m_PersistentCalls:
       m_Calls:
@@ -1923,7 +1931,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-  failAnimation: 1
   OnRelese:
     m_PersistentCalls:
       m_Calls:
@@ -2066,7 +2073,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b39c35fd8049e7847b2b700fbbcc1fa3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  failAnimation: 1
   targetLayerOrder: 2
+  animations: []
   OnGrap:
     m_PersistentCalls:
       m_Calls:
@@ -2082,7 +2091,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-  failAnimation: 1
   OnRelese:
     m_PersistentCalls:
       m_Calls:
@@ -2933,7 +2941,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b39c35fd8049e7847b2b700fbbcc1fa3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  failAnimation: 1
   targetLayerOrder: 2
+  animations: []
   OnGrap:
     m_PersistentCalls:
       m_Calls:
@@ -2949,7 +2959,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-  failAnimation: 1
   OnRelese:
     m_PersistentCalls:
       m_Calls:
@@ -3092,7 +3101,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b39c35fd8049e7847b2b700fbbcc1fa3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  failAnimation: 1
   targetLayerOrder: 2
+  animations: []
   OnGrap:
     m_PersistentCalls:
       m_Calls:
@@ -3108,7 +3119,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-  failAnimation: 1
   OnRelese:
     m_PersistentCalls:
       m_Calls:
@@ -3369,7 +3379,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b39c35fd8049e7847b2b700fbbcc1fa3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  failAnimation: 1
   targetLayerOrder: 2
+  animations: []
   OnGrap:
     m_PersistentCalls:
       m_Calls:
@@ -3385,7 +3397,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-  failAnimation: 1
   OnRelese:
     m_PersistentCalls:
       m_Calls:
@@ -3707,7 +3718,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b39c35fd8049e7847b2b700fbbcc1fa3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  failAnimation: 1
   targetLayerOrder: 2
+  animations: []
   OnGrap:
     m_PersistentCalls:
       m_Calls:
@@ -3723,7 +3736,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-  failAnimation: 1
   OnRelese:
     m_PersistentCalls:
       m_Calls:
@@ -3866,7 +3878,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b39c35fd8049e7847b2b700fbbcc1fa3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  failAnimation: 1
   targetLayerOrder: 2
+  animations: []
   OnGrap:
     m_PersistentCalls:
       m_Calls:
@@ -3882,7 +3896,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-  failAnimation: 1
   OnRelese:
     m_PersistentCalls:
       m_Calls:
@@ -4025,7 +4038,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b39c35fd8049e7847b2b700fbbcc1fa3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  failAnimation: 1
   targetLayerOrder: 2
+  animations: []
   OnGrap:
     m_PersistentCalls:
       m_Calls:
@@ -4041,7 +4056,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-  failAnimation: 1
   OnRelese:
     m_PersistentCalls:
       m_Calls:
@@ -4184,7 +4198,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b39c35fd8049e7847b2b700fbbcc1fa3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  failAnimation: 1
   targetLayerOrder: 2
+  animations: []
   OnGrap:
     m_PersistentCalls:
       m_Calls:
@@ -4200,7 +4216,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-  failAnimation: 1
   OnRelese:
     m_PersistentCalls:
       m_Calls:
@@ -4343,7 +4358,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b39c35fd8049e7847b2b700fbbcc1fa3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  failAnimation: 1
   targetLayerOrder: 2
+  animations: []
   OnGrap:
     m_PersistentCalls:
       m_Calls:
@@ -4359,7 +4376,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-  failAnimation: 1
   OnRelese:
     m_PersistentCalls:
       m_Calls:
@@ -4502,7 +4518,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b39c35fd8049e7847b2b700fbbcc1fa3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  failAnimation: 1
   targetLayerOrder: 2
+  animations: []
   OnGrap:
     m_PersistentCalls:
       m_Calls:
@@ -4518,7 +4536,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-  failAnimation: 1
   OnRelese:
     m_PersistentCalls:
       m_Calls:
@@ -4914,6 +4931,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   SelfSprite: 1
   targetSprites: []
+  texts: []
   TargetColor: 0
   OnFindSprite:
     m_PersistentCalls:
@@ -5042,7 +5060,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b39c35fd8049e7847b2b700fbbcc1fa3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  failAnimation: 1
   targetLayerOrder: 2
+  animations: []
   OnGrap:
     m_PersistentCalls:
       m_Calls:
@@ -5058,7 +5078,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-  failAnimation: 1
   OnRelese:
     m_PersistentCalls:
       m_Calls:
@@ -5437,7 +5456,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b39c35fd8049e7847b2b700fbbcc1fa3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  failAnimation: 1
   targetLayerOrder: 2
+  animations: []
   OnGrap:
     m_PersistentCalls:
       m_Calls:
@@ -5453,7 +5474,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-  failAnimation: 1
   OnRelese:
     m_PersistentCalls:
       m_Calls:
@@ -5613,6 +5633,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   SelfSprite: 1
   targetSprites: []
+  texts: []
   TargetColor: 0
   OnFindSprite:
     m_PersistentCalls:
@@ -6213,7 +6234,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b39c35fd8049e7847b2b700fbbcc1fa3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  failAnimation: 1
   targetLayerOrder: 2
+  animations: []
   OnGrap:
     m_PersistentCalls:
       m_Calls:
@@ -6229,7 +6252,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-  failAnimation: 1
   OnRelese:
     m_PersistentCalls:
       m_Calls:
@@ -6844,7 +6866,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b39c35fd8049e7847b2b700fbbcc1fa3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  failAnimation: 1
   targetLayerOrder: 2
+  animations: []
   OnGrap:
     m_PersistentCalls:
       m_Calls:
@@ -6860,7 +6884,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-  failAnimation: 1
   OnRelese:
     m_PersistentCalls:
       m_Calls:
@@ -7003,7 +7026,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b39c35fd8049e7847b2b700fbbcc1fa3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  failAnimation: 1
   targetLayerOrder: 2
+  animations: []
   OnGrap:
     m_PersistentCalls:
       m_Calls:
@@ -7019,7 +7044,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-  failAnimation: 1
   OnRelese:
     m_PersistentCalls:
       m_Calls:
@@ -7193,7 +7217,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b39c35fd8049e7847b2b700fbbcc1fa3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  failAnimation: 1
   targetLayerOrder: 2
+  animations: []
   OnGrap:
     m_PersistentCalls:
       m_Calls:
@@ -7209,7 +7235,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-  failAnimation: 1
   OnRelese:
     m_PersistentCalls:
       m_Calls:
@@ -7470,7 +7495,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b39c35fd8049e7847b2b700fbbcc1fa3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  failAnimation: 1
   targetLayerOrder: 2
+  animations: []
   OnGrap:
     m_PersistentCalls:
       m_Calls:
@@ -7486,7 +7513,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-  failAnimation: 1
   OnRelese:
     m_PersistentCalls:
       m_Calls:
@@ -7865,7 +7891,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b39c35fd8049e7847b2b700fbbcc1fa3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  failAnimation: 1
   targetLayerOrder: 2
+  animations: []
   OnGrap:
     m_PersistentCalls:
       m_Calls:
@@ -7881,7 +7909,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-  failAnimation: 1
   OnRelese:
     m_PersistentCalls:
       m_Calls:
@@ -8142,7 +8169,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b39c35fd8049e7847b2b700fbbcc1fa3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  failAnimation: 1
   targetLayerOrder: 2
+  animations: []
   OnGrap:
     m_PersistentCalls:
       m_Calls:
@@ -8158,7 +8187,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-  failAnimation: 1
   OnRelese:
     m_PersistentCalls:
       m_Calls:
@@ -8301,7 +8329,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b39c35fd8049e7847b2b700fbbcc1fa3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  failAnimation: 1
   targetLayerOrder: 2
+  animations: []
   OnGrap:
     m_PersistentCalls:
       m_Calls:
@@ -8317,7 +8347,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-  failAnimation: 1
   OnRelese:
     m_PersistentCalls:
       m_Calls:
@@ -8460,7 +8489,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b39c35fd8049e7847b2b700fbbcc1fa3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  failAnimation: 1
   targetLayerOrder: 2
+  animations: []
   OnGrap:
     m_PersistentCalls:
       m_Calls:
@@ -8476,7 +8507,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-  failAnimation: 1
   OnRelese:
     m_PersistentCalls:
       m_Calls:
@@ -8619,7 +8649,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b39c35fd8049e7847b2b700fbbcc1fa3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  failAnimation: 1
   targetLayerOrder: 2
+  animations: []
   OnGrap:
     m_PersistentCalls:
       m_Calls:
@@ -8635,7 +8667,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-  failAnimation: 1
   OnRelese:
     m_PersistentCalls:
       m_Calls:
@@ -8778,7 +8809,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b39c35fd8049e7847b2b700fbbcc1fa3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  failAnimation: 1
   targetLayerOrder: 2
+  animations: []
   OnGrap:
     m_PersistentCalls:
       m_Calls:
@@ -8794,7 +8827,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-  failAnimation: 1
   OnRelese:
     m_PersistentCalls:
       m_Calls:
@@ -9086,7 +9118,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b39c35fd8049e7847b2b700fbbcc1fa3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  failAnimation: 1
   targetLayerOrder: 2
+  animations: []
   OnGrap:
     m_PersistentCalls:
       m_Calls:
@@ -9102,7 +9136,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-  failAnimation: 1
   OnRelese:
     m_PersistentCalls:
       m_Calls:
@@ -9245,7 +9278,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b39c35fd8049e7847b2b700fbbcc1fa3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  failAnimation: 1
   targetLayerOrder: 2
+  animations: []
   OnGrap:
     m_PersistentCalls:
       m_Calls:
@@ -9261,7 +9296,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-  failAnimation: 1
   OnRelese:
     m_PersistentCalls:
       m_Calls:
@@ -9640,7 +9674,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b39c35fd8049e7847b2b700fbbcc1fa3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  failAnimation: 1
   targetLayerOrder: 2
+  animations: []
   OnGrap:
     m_PersistentCalls:
       m_Calls:
@@ -9656,7 +9692,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-  failAnimation: 1
   OnRelese:
     m_PersistentCalls:
       m_Calls:
@@ -9799,7 +9834,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b39c35fd8049e7847b2b700fbbcc1fa3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  failAnimation: 1
   targetLayerOrder: 2
+  animations: []
   OnGrap:
     m_PersistentCalls:
       m_Calls:
@@ -9815,7 +9852,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-  failAnimation: 1
   OnRelese:
     m_PersistentCalls:
       m_Calls:
@@ -10076,7 +10112,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b39c35fd8049e7847b2b700fbbcc1fa3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  failAnimation: 1
   targetLayerOrder: 2
+  animations: []
   OnGrap:
     m_PersistentCalls:
       m_Calls:
@@ -10092,7 +10130,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-  failAnimation: 1
   OnRelese:
     m_PersistentCalls:
       m_Calls:
@@ -10235,7 +10272,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b39c35fd8049e7847b2b700fbbcc1fa3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  failAnimation: 1
   targetLayerOrder: 2
+  animations: []
   OnGrap:
     m_PersistentCalls:
       m_Calls:
@@ -10251,7 +10290,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-  failAnimation: 1
   OnRelese:
     m_PersistentCalls:
       m_Calls:
@@ -10394,7 +10432,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b39c35fd8049e7847b2b700fbbcc1fa3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  failAnimation: 1
   targetLayerOrder: 2
+  animations: []
   OnGrap:
     m_PersistentCalls:
       m_Calls:
@@ -10410,7 +10450,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-  failAnimation: 1
   OnRelese:
     m_PersistentCalls:
       m_Calls:
@@ -10671,7 +10710,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b39c35fd8049e7847b2b700fbbcc1fa3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  failAnimation: 1
   targetLayerOrder: 2
+  animations: []
   OnGrap:
     m_PersistentCalls:
       m_Calls:
@@ -10687,7 +10728,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-  failAnimation: 1
   OnRelese:
     m_PersistentCalls:
       m_Calls:
@@ -10948,7 +10988,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b39c35fd8049e7847b2b700fbbcc1fa3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  failAnimation: 1
   targetLayerOrder: 2
+  animations: []
   OnGrap:
     m_PersistentCalls:
       m_Calls:
@@ -10964,7 +11006,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-  failAnimation: 1
   OnRelese:
     m_PersistentCalls:
       m_Calls:
@@ -11461,7 +11502,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b39c35fd8049e7847b2b700fbbcc1fa3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  failAnimation: 1
   targetLayerOrder: 2
+  animations: []
   OnGrap:
     m_PersistentCalls:
       m_Calls:
@@ -11477,7 +11520,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-  failAnimation: 1
   OnRelese:
     m_PersistentCalls:
       m_Calls:
@@ -12054,7 +12096,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b39c35fd8049e7847b2b700fbbcc1fa3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  failAnimation: 1
   targetLayerOrder: 2
+  animations: []
   OnGrap:
     m_PersistentCalls:
       m_Calls:
@@ -12070,7 +12114,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-  failAnimation: 1
   OnRelese:
     m_PersistentCalls:
       m_Calls:
@@ -12213,7 +12256,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b39c35fd8049e7847b2b700fbbcc1fa3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  failAnimation: 1
   targetLayerOrder: 2
+  animations: []
   OnGrap:
     m_PersistentCalls:
       m_Calls:
@@ -12229,7 +12274,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-  failAnimation: 1
   OnRelese:
     m_PersistentCalls:
       m_Calls:
@@ -12372,7 +12416,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b39c35fd8049e7847b2b700fbbcc1fa3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  failAnimation: 1
   targetLayerOrder: 2
+  animations: []
   OnGrap:
     m_PersistentCalls:
       m_Calls:
@@ -12388,7 +12434,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-  failAnimation: 1
   OnRelese:
     m_PersistentCalls:
       m_Calls:
@@ -12767,7 +12812,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b39c35fd8049e7847b2b700fbbcc1fa3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  failAnimation: 1
   targetLayerOrder: 2
+  animations: []
   OnGrap:
     m_PersistentCalls:
       m_Calls:
@@ -12783,7 +12830,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-  failAnimation: 1
   OnRelese:
     m_PersistentCalls:
       m_Calls:
@@ -12926,7 +12972,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b39c35fd8049e7847b2b700fbbcc1fa3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  failAnimation: 1
   targetLayerOrder: 2
+  animations: []
   OnGrap:
     m_PersistentCalls:
       m_Calls:
@@ -12942,7 +12990,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-  failAnimation: 1
   OnRelese:
     m_PersistentCalls:
       m_Calls:
@@ -13203,7 +13250,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b39c35fd8049e7847b2b700fbbcc1fa3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  failAnimation: 1
   targetLayerOrder: 2
+  animations: []
   OnGrap:
     m_PersistentCalls:
       m_Calls:
@@ -13219,7 +13268,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-  failAnimation: 1
   OnRelese:
     m_PersistentCalls:
       m_Calls:
@@ -13497,6 +13545,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   SelfSprite: 1
   targetSprites: []
+  texts: []
   TargetColor: 0
   OnFindSprite:
     m_PersistentCalls:
@@ -14016,7 +14065,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b39c35fd8049e7847b2b700fbbcc1fa3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  failAnimation: 1
   targetLayerOrder: 2
+  animations: []
   OnGrap:
     m_PersistentCalls:
       m_Calls:
@@ -14032,7 +14083,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-  failAnimation: 1
   OnRelese:
     m_PersistentCalls:
       m_Calls:
@@ -14255,7 +14305,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b39c35fd8049e7847b2b700fbbcc1fa3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  failAnimation: 1
   targetLayerOrder: 2
+  animations: []
   OnGrap:
     m_PersistentCalls:
       m_Calls:
@@ -14271,7 +14323,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-  failAnimation: 1
   OnRelese:
     m_PersistentCalls:
       m_Calls:
@@ -14711,7 +14762,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b39c35fd8049e7847b2b700fbbcc1fa3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  failAnimation: 1
   targetLayerOrder: 2
+  animations: []
   OnGrap:
     m_PersistentCalls:
       m_Calls:
@@ -14727,7 +14780,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-  failAnimation: 1
   OnRelese:
     m_PersistentCalls:
       m_Calls:
@@ -14787,16 +14839,20 @@ MonoBehaviour:
   m_GameObject: {fileID: 8846952364505909539}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 358be7abb6a05964e9f295108c4feb5c, type: 3}
+  m_Script: {fileID: 11500000, guid: 2e1f3fafaf2c98543b6fd3d0c0aa004f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  spriteFindings:
+  objectDrags: []
+  objectFinder:
   - {fileID: 8846952363553767075}
   - {fileID: 8846952364756651185}
   - {fileID: 8846952363449539796}
   - {fileID: 8846952362939997195}
   - {fileID: 8846952364319666804}
   - {fileID: 8846952364815880046}
+  collisionCheckers: []
+  cardChecker: {fileID: 0}
+  maxFind: 6
 --- !u!1 &8846952364508456045
 GameObject:
   m_ObjectHideFlags: 0
@@ -14921,7 +14977,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b39c35fd8049e7847b2b700fbbcc1fa3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  failAnimation: 1
   targetLayerOrder: 2
+  animations: []
   OnGrap:
     m_PersistentCalls:
       m_Calls:
@@ -14937,7 +14995,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-  failAnimation: 1
   OnRelese:
     m_PersistentCalls:
       m_Calls:
@@ -15198,7 +15255,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b39c35fd8049e7847b2b700fbbcc1fa3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  failAnimation: 1
   targetLayerOrder: 2
+  animations: []
   OnGrap:
     m_PersistentCalls:
       m_Calls:
@@ -15214,7 +15273,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-  failAnimation: 1
   OnRelese:
     m_PersistentCalls:
       m_Calls:
@@ -15475,7 +15533,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b39c35fd8049e7847b2b700fbbcc1fa3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  failAnimation: 1
   targetLayerOrder: 2
+  animations: []
   OnGrap:
     m_PersistentCalls:
       m_Calls:
@@ -15491,7 +15551,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-  failAnimation: 1
   OnRelese:
     m_PersistentCalls:
       m_Calls:
@@ -15988,7 +16047,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b39c35fd8049e7847b2b700fbbcc1fa3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  failAnimation: 1
   targetLayerOrder: 2
+  animations: []
   OnGrap:
     m_PersistentCalls:
       m_Calls:
@@ -16004,7 +16065,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-  failAnimation: 1
   OnRelese:
     m_PersistentCalls:
       m_Calls:
@@ -16147,7 +16207,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b39c35fd8049e7847b2b700fbbcc1fa3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  failAnimation: 1
   targetLayerOrder: 2
+  animations: []
   OnGrap:
     m_PersistentCalls:
       m_Calls:
@@ -16163,7 +16225,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-  failAnimation: 1
   OnRelese:
     m_PersistentCalls:
       m_Calls:
@@ -16306,7 +16367,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b39c35fd8049e7847b2b700fbbcc1fa3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  failAnimation: 1
   targetLayerOrder: 2
+  animations: []
   OnGrap:
     m_PersistentCalls:
       m_Calls:
@@ -16322,7 +16385,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-  failAnimation: 1
   OnRelese:
     m_PersistentCalls:
       m_Calls:
@@ -16465,7 +16527,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b39c35fd8049e7847b2b700fbbcc1fa3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  failAnimation: 1
   targetLayerOrder: 2
+  animations: []
   OnGrap:
     m_PersistentCalls:
       m_Calls:
@@ -16481,7 +16545,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-  failAnimation: 1
   OnRelese:
     m_PersistentCalls:
       m_Calls:
@@ -16624,7 +16687,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b39c35fd8049e7847b2b700fbbcc1fa3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  failAnimation: 1
   targetLayerOrder: 2
+  animations: []
   OnGrap:
     m_PersistentCalls:
       m_Calls:
@@ -16640,7 +16705,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-  failAnimation: 1
   OnRelese:
     m_PersistentCalls:
       m_Calls:
@@ -16901,7 +16965,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b39c35fd8049e7847b2b700fbbcc1fa3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  failAnimation: 1
   targetLayerOrder: 2
+  animations: []
   OnGrap:
     m_PersistentCalls:
       m_Calls:
@@ -16917,7 +16983,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-  failAnimation: 1
   OnRelese:
     m_PersistentCalls:
       m_Calls:
@@ -17077,6 +17142,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   SelfSprite: 1
   targetSprites: []
+  texts: []
   TargetColor: 0
   OnFindSprite:
     m_PersistentCalls:
@@ -17205,7 +17271,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b39c35fd8049e7847b2b700fbbcc1fa3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  failAnimation: 1
   targetLayerOrder: 2
+  animations: []
   OnGrap:
     m_PersistentCalls:
       m_Calls:
@@ -17221,7 +17289,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-  failAnimation: 1
   OnRelese:
     m_PersistentCalls:
       m_Calls:
@@ -17499,6 +17566,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   SelfSprite: 1
   targetSprites: []
+  texts: []
   TargetColor: 0
   OnFindSprite:
     m_PersistentCalls:
@@ -17627,7 +17695,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b39c35fd8049e7847b2b700fbbcc1fa3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  failAnimation: 1
   targetLayerOrder: 2
+  animations: []
   OnGrap:
     m_PersistentCalls:
       m_Calls:
@@ -17643,7 +17713,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-  failAnimation: 1
   OnRelese:
     m_PersistentCalls:
       m_Calls:
@@ -18258,7 +18327,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b39c35fd8049e7847b2b700fbbcc1fa3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  failAnimation: 1
   targetLayerOrder: 2
+  animations: []
   OnGrap:
     m_PersistentCalls:
       m_Calls:
@@ -18274,7 +18345,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-  failAnimation: 1
   OnRelese:
     m_PersistentCalls:
       m_Calls:

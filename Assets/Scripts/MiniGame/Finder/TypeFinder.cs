@@ -12,6 +12,7 @@ namespace MiniGame.Finder
         public Sprite[] targetSprites;
         public string[] texts;
         public ColorType TargetColor;
+        public TypeFinder[] otherChangeType;
 
         public UnityEvent OnFindSprite;
 

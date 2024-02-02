@@ -1037,11 +1037,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 4480288132891857681}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 745d84cd420240346b5f84b47dc6a831, type: 3}
+  m_Script: {fileID: 11500000, guid: 2e1f3fafaf2c98543b6fd3d0c0aa004f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  numberFind: 6
-  checker: {fileID: 4480288132131096160}
+  objectDrags: []
+  objectFinder: []
+  cardChecker: {fileID: 4480288132131096160}
+  maxFind: 6
 --- !u!1 &4480288132919603083
 GameObject:
   m_ObjectHideFlags: 0

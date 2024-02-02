@@ -125,12 +125,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e9d435958c24644488133a8d5420fb04, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  failAnimation: 1
   targetLayerOrder: 1
+  animations: []
   OnGrap:
     m_PersistentCalls:
       m_Calls: []
-  failAnimation: 1
-  targetColor: 0
   OnRelese:
     m_PersistentCalls:
       m_Calls: []
@@ -149,6 +149,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+  targetColor: 0
 --- !u!114 &231997337902535082
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -287,12 +288,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e9d435958c24644488133a8d5420fb04, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  failAnimation: 1
   targetLayerOrder: 1
+  animations: []
   OnGrap:
     m_PersistentCalls:
       m_Calls: []
-  failAnimation: 1
-  targetColor: 5
   OnRelese:
     m_PersistentCalls:
       m_Calls: []
@@ -311,6 +312,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+  targetColor: 5
 --- !u!114 &231997337961496385
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -449,12 +451,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e9d435958c24644488133a8d5420fb04, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  failAnimation: 1
   targetLayerOrder: 1
+  animations: []
   OnGrap:
     m_PersistentCalls:
       m_Calls: []
-  failAnimation: 1
-  targetColor: 5
   OnRelese:
     m_PersistentCalls:
       m_Calls: []
@@ -473,6 +475,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+  targetColor: 5
 --- !u!114 &231997338031137077
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -611,12 +614,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e9d435958c24644488133a8d5420fb04, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  failAnimation: 1
   targetLayerOrder: 1
+  animations: []
   OnGrap:
     m_PersistentCalls:
       m_Calls: []
-  failAnimation: 1
-  targetColor: 5
   OnRelese:
     m_PersistentCalls:
       m_Calls: []
@@ -635,6 +638,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+  targetColor: 5
 --- !u!114 &231997338085913357
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1105,12 +1109,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e9d435958c24644488133a8d5420fb04, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  failAnimation: 1
   targetLayerOrder: 1
+  animations: []
   OnGrap:
     m_PersistentCalls:
       m_Calls: []
-  failAnimation: 1
-  targetColor: 0
   OnRelese:
     m_PersistentCalls:
       m_Calls: []
@@ -1129,6 +1133,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+  targetColor: 0
 --- !u!114 &231997338446064565
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1267,12 +1272,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e9d435958c24644488133a8d5420fb04, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  failAnimation: 1
   targetLayerOrder: 1
+  animations: []
   OnGrap:
     m_PersistentCalls:
       m_Calls: []
-  failAnimation: 1
-  targetColor: 1
   OnRelese:
     m_PersistentCalls:
       m_Calls: []
@@ -1291,6 +1296,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+  targetColor: 1
 --- !u!114 &231997338557901607
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1513,12 +1519,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e9d435958c24644488133a8d5420fb04, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  failAnimation: 1
   targetLayerOrder: 1
+  animations: []
   OnGrap:
     m_PersistentCalls:
       m_Calls: []
-  failAnimation: 1
-  targetColor: 0
   OnRelese:
     m_PersistentCalls:
       m_Calls: []
@@ -1537,6 +1543,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+  targetColor: 0
 --- !u!114 &231997338855250951
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1821,12 +1828,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e9d435958c24644488133a8d5420fb04, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  failAnimation: 1
   targetLayerOrder: 1
+  animations: []
   OnGrap:
     m_PersistentCalls:
       m_Calls: []
-  failAnimation: 1
-  targetColor: 1
   OnRelese:
     m_PersistentCalls:
       m_Calls: []
@@ -1845,6 +1852,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+  targetColor: 1
 --- !u!114 &231997339409595646
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2017,12 +2025,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e9d435958c24644488133a8d5420fb04, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  failAnimation: 1
   targetLayerOrder: 1
+  animations: []
   OnGrap:
     m_PersistentCalls:
       m_Calls: []
-  failAnimation: 1
-  targetColor: 1
   OnRelese:
     m_PersistentCalls:
       m_Calls: []
@@ -2041,6 +2049,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+  targetColor: 1
 --- !u!114 &231997339684452714
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2083,6 +2092,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 7788661580575132908}
+  - {fileID: 243553940816140251}
   m_Father: {fileID: 4876939940684455646}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -2164,10 +2174,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 7788661580575132907}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e38b18c49e179d2408a773287a155a32, type: 3}
+  m_Script: {fileID: 11500000, guid: 2e1f3fafaf2c98543b6fd3d0c0aa004f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cloths:
+  objectDrags:
   - {fileID: 231997338031137074}
   - {fileID: 231997338446064562}
   - {fileID: 231997338557901604}
@@ -2177,6 +2187,9 @@ MonoBehaviour:
   - {fileID: 231997339409595647}
   - {fileID: 231997337961496398}
   - {fileID: 231997338855250948}
+  objectFinder: []
+  cardChecker: {fileID: 0}
+  maxFind: 9
 --- !u!1 &7788661581207326923
 GameObject:
   m_ObjectHideFlags: 0
@@ -2261,6 +2274,60 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &8077291563858158202
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 243553940816140251}
+  - component: {fileID: 9167988264053150959}
+  m_Layer: 0
+  m_Name: RandomPosition
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &243553940816140251
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8077291563858158202}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 4876939939273481115}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &9167988264053150959
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8077291563858158202}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d2058f90ee11d7d4f8b077ac430d0c65, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objects:
+  - {fileID: 231997338031137086}
+  - {fileID: 231997338446064574}
+  - {fileID: 231997338557901600}
+  - {fileID: 231997337902536279}
+  - {fileID: 231997338085913398}
+  - {fileID: 231997339684452631}
+  - {fileID: 231997339409595643}
+  - {fileID: 231997337961496394}
+  - {fileID: 231997338855250944}
 --- !u!1001 &2826394209502467220
 PrefabInstance:
   m_ObjectHideFlags: 0

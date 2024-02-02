@@ -1,3 +1,5 @@
+using Tween;
+using DG.Tweening;
 using System.Collections;
 using System.Collections.Generic;
 using Tools;
@@ -8,14 +10,19 @@ namespace MiniGame
 {
     public class Drag : MonoBehaviour
     {
+        [SerializeField] private bool failAnimation;
         [SerializeField] protected int targetLayerOrder;
+        [SerializeField] protected AnimationTween[] animations;
         public UnityEvent OnGrap;
+        public UnityEvent OnRelese;
+        public UnityEvent OnDrop;
 
         protected bool _select;
         protected Vector3 _firstPos;
         protected Collider2D _collider;
         protected SpriteRenderer _spriteRenderer;
         protected int _firstLayer;
+        protected Vector3 _firstScale;
 
         public bool CanDrag { get; set; }
         protected virtual void Start()
@@ -27,6 +34,7 @@ namespace MiniGame
             if (_spriteRenderer)
                 _firstLayer = _spriteRenderer.sortingOrder;
 
+            _firstScale = transform.localScale;
             CanDrag = true;
         }
         protected virtual void Update()
@@ -60,6 +68,48 @@ namespace MiniGame
             var pos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
             pos.z = transform.position.z;
             transform.position = pos;
+        }
+
+        protected virtual void TrueSlot(Slot slot)
+        {
+            OnDrop?.Invoke();
+            if (slot.TargetPosition)
+            {
+                transform.position = slot.TargetPosition.position;
+                transform.parent = slot.TargetPosition;
+            }
+            if (_spriteRenderer)
+                _spriteRenderer.sortingOrder = targetLayerOrder;
+
+            if (slot.JustOnDrop)
+                slot.CanDrop = false;
+            CanDrag = false;
+            MouseData.SlotObject = null;
+
+            for (int i = 0; i < animations.Length; i++)
+            {
+                animations[i].Play();
+            }
+        }
+        protected virtual void WrongSlot()
+        {
+            OnRelese?.Invoke();
+            if (failAnimation)
+            {
+                transform.DOShakeScale(0.5f, 1, 15, 90).OnComplete(() =>
+                {
+                    transform.DOScale(_firstScale, 0.1f);
+                    transform.DOLocalMove(_firstPos, 0.1f);
+                    if (_spriteRenderer)
+                        _spriteRenderer.sortingOrder = _firstLayer;
+                });
+            }
+            else
+            {
+                transform.DOLocalMove(_firstPos, 0.1f);
+                if (_spriteRenderer)
+                    _spriteRenderer.sortingOrder = _firstLayer;
+            }
         }
     }
 }

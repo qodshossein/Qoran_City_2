@@ -5,6 +5,11 @@ TagManager:
   serializedVersion: 2
   tags:
   - IceCreamChecker
+  - Sweet
+  - BadCollectable
+  - Ball
+  - Bubble
+  - GoodCollectable
   layers:
   - Default
   - TransparentFX
@@ -12,7 +17,7 @@ TagManager:
   - 
   - Water
   - UI
-  - 
+  - Bubble
   - 
   - 
   - 

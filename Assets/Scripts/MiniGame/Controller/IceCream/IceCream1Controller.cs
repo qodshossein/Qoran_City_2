@@ -6,43 +6,32 @@ using MiniGame.Finder;
 
 namespace MiniGame.Controller.IceCream
 {
-    public class IceCream1Controller : MonoBehaviour
+    public class IceCream1Controller : MiniGameController
     {
         [SerializeField] private QueueController queueController;
-        [SerializeField] private TypeFinder[] spriteFindings;
 
-        private int _numberIceCream;
-        private void Start()
+        protected override void Start()
         {
-            for (int i = 1; i < spriteFindings.Length; i++)
+            base.Start();
+            for (int i = 1; i < objectFinder.Length; i++)
             {
-                var slot = spriteFindings[i].GetComponent<Slot>();
+                var slot = objectFinder[i].GetComponent<Slot>();
                 slot.CanDrop = false;
             }
-            for (int i = 0; i < spriteFindings.Length; i++)
-            {
-                spriteFindings[i].OnFindSprite.AddListener(OnSetIceCream);
-            }
 
-            var billBoard = spriteFindings[0].transform.GetChild(1);
+            var billBoard = objectFinder[0].transform.GetChild(1);
             billBoard.gameObject.SetActive(true);
         }
 
-        private void OnSetIceCream() 
+        public override void OnFind()
         {
+            base.OnFind();
             queueController.NextQueue();
-            _numberIceCream++;
 
             var lastObjectQueue = queueController.LastQueueObject;
             var billBoard = lastObjectQueue.GetChild(1);
             billBoard.gameObject.SetActive(true);
             lastObjectQueue.GetComponent<Slot>().CanDrop = true;
-
-
-            if (_numberIceCream >= spriteFindings.Length)
-            {
-                GameManager.Instance.LevelCompelet();
-            }
         }
     }
 }
