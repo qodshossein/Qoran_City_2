@@ -10,9 +10,12 @@ namespace MiniGame
 {
     public class Drag : MonoBehaviour
     {
-        [SerializeField] private bool failAnimation;
+        [SerializeField] protected bool failAnimation;
         [SerializeField] protected int targetLayerOrder;
         [SerializeField] protected AnimationTween[] animations;
+        [SerializeField] protected bool changeScaleOnDrop;
+        [SerializeField] protected Vector3 targetScaleOnDrop;
+
         public UnityEvent OnGrap;
         public UnityEvent OnRelese;
         public UnityEvent OnDrop;
@@ -73,10 +76,21 @@ namespace MiniGame
         protected virtual void TrueSlot(Slot slot)
         {
             OnDrop?.Invoke();
-            if (slot.TargetPosition)
+            if (slot.pointCreators.Length > 0)
             {
-                transform.position = slot.TargetPosition.position;
-                transform.parent = slot.TargetPosition;
+                var randomIndex = Random.Range(0, slot.pointCreators.Length);
+                var point = slot.pointCreators[randomIndex].GetPoint();
+
+                transform.position = point;
+                transform.parent = slot.pointCreators[randomIndex].transform;
+            }
+            else
+            {
+                if (slot.TargetPosition)
+                {
+                    transform.position = slot.TargetPosition.position;
+                    transform.parent = slot.TargetPosition;
+                }
             }
             if (_spriteRenderer)
                 _spriteRenderer.sortingOrder = targetLayerOrder;
@@ -90,6 +104,9 @@ namespace MiniGame
             {
                 animations[i].Play();
             }
+
+            if (changeScaleOnDrop)
+                transform.DOScale(targetScaleOnDrop, 0.4f);
         }
         protected virtual void WrongSlot()
         {

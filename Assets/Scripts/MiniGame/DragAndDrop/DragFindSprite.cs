@@ -13,7 +13,6 @@ namespace MiniGame.DragAndDrop
 
         protected override void OnMouseUp()
         {
-            base.OnMouseUp();
             if (!CanDrag) return;
             var slot = MouseData.SlotObject;
             if (slot)
@@ -27,6 +26,8 @@ namespace MiniGame.DragAndDrop
             }
             else
                 WrongSlot();
+
+            base.OnMouseUp();
         }
     }
 }

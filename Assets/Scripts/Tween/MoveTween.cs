@@ -10,7 +10,10 @@ namespace Tween
         public override void Play()
         {
             base.Play();
-            transform.DOMove(target.position, timeAnimation);
+            transform.DOMove(target.position, timeAnimation).OnComplete(() => 
+            {
+                OnAnimationCompelet?.Invoke();
+            });
         }
     }
 }

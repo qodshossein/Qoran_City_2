@@ -11,6 +11,8 @@ namespace MiniGame
         [Space]
         [SerializeField] private float minXMove;
         [SerializeField] private float maxXMove;
+        [SerializeField] private float minYMove;
+        [SerializeField] private float maxYMove;
 
         private Vector2 _deltaMove;
         private Vector2 _firstMousePos;
@@ -45,7 +47,10 @@ namespace MiniGame
             var h = _deltaMove.x * speedX * Time.deltaTime;
             var v = _deltaMove.y * speedY * Time.deltaTime;
             _targetPos += new Vector2(h, v);
-            _targetPos.x = Mathf.Clamp(_targetPos.x, minXMove, maxXMove);
+            if (speedX != 0)
+                _targetPos.x = Mathf.Clamp(_targetPos.x, minXMove, maxXMove);
+            if (speedY != 0)
+                _targetPos.y = Mathf.Clamp(_targetPos.y, minYMove, maxYMove);
             transform.position = _targetPos;
         }
     }

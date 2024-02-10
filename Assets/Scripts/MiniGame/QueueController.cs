@@ -10,7 +10,11 @@ namespace MiniGame
         [SerializeField] private List<Transform> queueObjects;
         [SerializeField] private Transform exitPoint;
 
-        public Transform LastQueueObject;
+        public Transform LastQueueObject {  get; private set; }
+        private void Update()
+        {
+            
+        }
         public void NextQueue() 
         {
             for (int i = 1; i < queueObjects.Count; i++)

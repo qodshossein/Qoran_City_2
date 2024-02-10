@@ -1,7 +1,8 @@
+using DG.Tweening;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using UnityEngine.Events;
 
 namespace Tween
 {
@@ -10,6 +11,7 @@ namespace Tween
         [SerializeField] protected float timeAnimation;
         [SerializeField] protected Transform target;
         [SerializeField] protected bool playOnAwake;
+        public UnityEvent OnAnimationCompelet;
 
         protected virtual void Awake() 
         {
@@ -18,7 +20,7 @@ namespace Tween
         }
         public virtual void Play() 
         {
-
+            transform.DOPause();
         }
     }
 }

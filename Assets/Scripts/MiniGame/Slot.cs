@@ -9,6 +9,7 @@ namespace MiniGame
     {
         public bool JustOnDrop = true;
         public Transform TargetPosition;
+        public PointCreator2D[] pointCreators;
         public bool CanDrop {  get; set; }
 
         private void Awake()

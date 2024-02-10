@@ -1,5 +1,6 @@
 using Manager;
 using MiniGame;
+using MiniGame.Collision;
 using MiniGame.Finder;
 using System;
 using System.Collections;
@@ -23,6 +24,7 @@ public class MiniGameController : MonoBehaviour
 
     public UnityEvent WhenFind;
     public UnityEvent WhenFail;
+    public UnityEvent WhenWin;
 
     protected int _numberFind;
     protected int _numberFail;
@@ -72,6 +74,7 @@ public class MiniGameController : MonoBehaviour
         if(_numberFind >= maxFind)
         {
             GameManager.Instance.LevelCompelet();
+            WhenWin?.Invoke();
         }
         WhenFind?.Invoke();
     }
