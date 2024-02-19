@@ -55,7 +55,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 9dfc825aed78fcd4ba02077103263b40, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -127,6 +127,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   JustOnDrop: 0
   TargetPosition: {fileID: 0}
+  pointCreators: []
+  OnDrop:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!114 &533905048250656102
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -140,15 +144,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   SelfSprite: 0
+  dontAddRepetitious: 0
+  addAny: 0
   targetSprites:
   - {fileID: 21300000, guid: c33fc9cfc3ed0054585a7dfd6a854eeb, type: 3}
   - {fileID: 21300000, guid: d87db231ffcb11f459c080795f9e533f, type: 3}
   - {fileID: 21300000, guid: 80cd7b2ebe9736441a2627c745c0c220, type: 3}
   texts: []
   TargetColor: 0
+  otherChangeType: []
   OnFindSprite:
     m_PersistentCalls:
       m_Calls: []
+  _addedSprites: []
 --- !u!1 &2940976623359585844
 GameObject:
   m_ObjectHideFlags: 0
@@ -272,7 +280,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 9dfc825aed78fcd4ba02077103263b40, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -343,8 +351,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   failAnimation: 1
+  canMoveToFirstPoint: 1
+  canDragAfterDrop: 0
   targetLayerOrder: 1
   animations: []
+  changeScaleOnDrop: 0
+  targetScaleOnDrop: {x: 0, y: 0, z: 0}
   OnGrap:
     m_PersistentCalls:
       m_Calls: []
@@ -442,7 +454,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 9dfc825aed78fcd4ba02077103263b40, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -513,8 +525,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   failAnimation: 1
+  canMoveToFirstPoint: 1
+  canDragAfterDrop: 0
   targetLayerOrder: 1
   animations: []
+  changeScaleOnDrop: 0
+  targetScaleOnDrop: {x: 0, y: 0, z: 0}
   OnGrap:
     m_PersistentCalls:
       m_Calls: []
@@ -578,7 +594,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 9dfc825aed78fcd4ba02077103263b40, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -649,8 +665,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   failAnimation: 1
+  canMoveToFirstPoint: 1
+  canDragAfterDrop: 0
   targetLayerOrder: 1
   animations: []
+  changeScaleOnDrop: 0
+  targetScaleOnDrop: {x: 0, y: 0, z: 0}
   OnGrap:
     m_PersistentCalls:
       m_Calls: []
@@ -781,7 +801,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 9dfc825aed78fcd4ba02077103263b40, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -852,8 +872,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   failAnimation: 1
+  canMoveToFirstPoint: 1
+  canDragAfterDrop: 0
   targetLayerOrder: 1
   animations: []
+  changeScaleOnDrop: 0
+  targetScaleOnDrop: {x: 0, y: 0, z: 0}
   OnGrap:
     m_PersistentCalls:
       m_Calls: []
@@ -918,7 +942,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 9dfc825aed78fcd4ba02077103263b40, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -990,6 +1014,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   JustOnDrop: 0
   TargetPosition: {fileID: 0}
+  pointCreators: []
+  OnDrop:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!114 &3017263678741211075
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1003,15 +1031,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   SelfSprite: 0
+  dontAddRepetitious: 0
+  addAny: 0
   targetSprites:
   - {fileID: 21300000, guid: 1b7c86d0ee4f7c347b1988340bff16a5, type: 3}
   - {fileID: 21300000, guid: b9d75e1e961355146b3f4c9751ca824a, type: 3}
   - {fileID: 21300000, guid: 136411a37f151264e83bdd5c71b3d5eb, type: 3}
   texts: []
   TargetColor: 0
+  otherChangeType: []
   OnFindSprite:
     m_PersistentCalls:
       m_Calls: []
+  _addedSprites: []
 --- !u!1 &3017263678970647411
 GameObject:
   m_ObjectHideFlags: 0
@@ -1066,7 +1098,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 9dfc825aed78fcd4ba02077103263b40, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1137,8 +1169,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   failAnimation: 1
+  canMoveToFirstPoint: 1
+  canDragAfterDrop: 0
   targetLayerOrder: 1
   animations: []
+  changeScaleOnDrop: 0
+  targetScaleOnDrop: {x: 0, y: 0, z: 0}
   OnGrap:
     m_PersistentCalls:
       m_Calls: []
@@ -1202,7 +1238,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 9dfc825aed78fcd4ba02077103263b40, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1273,8 +1309,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   failAnimation: 1
+  canMoveToFirstPoint: 1
+  canDragAfterDrop: 0
   targetLayerOrder: 1
   animations: []
+  changeScaleOnDrop: 0
+  targetScaleOnDrop: {x: 0, y: 0, z: 0}
   OnGrap:
     m_PersistentCalls:
       m_Calls: []
@@ -1388,9 +1428,21 @@ MonoBehaviour:
   - {fileID: 3017263678970647409}
   objectFinder: []
   collisionCheckers: []
+  collisionCheckersFail: []
   buttons3D: []
   cardChecker: {fileID: 0}
+  match3: {fileID: 0}
   maxFind: 6
+  maxFail: 0
+  WhenFind:
+    m_PersistentCalls:
+      m_Calls: []
+  WhenFail:
+    m_PersistentCalls:
+      m_Calls: []
+  WhenWin:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1001 &5496488512368763192
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -16202,6 +16254,10 @@ PrefabInstance:
       propertyPath: m_Color.r
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 7248263802263408728, guid: 6125aa4357e96294988da05c5cc1b44d, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 9dfc825aed78fcd4ba02077103263b40, type: 2}
     - target: {fileID: 7248263802263408729, guid: 6125aa4357e96294988da05c5cc1b44d, type: 3}
       propertyPath: m_RootOrder
       value: 1

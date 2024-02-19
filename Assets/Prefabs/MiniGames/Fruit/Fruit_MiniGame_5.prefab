@@ -52,7 +52,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 9dfc825aed78fcd4ba02077103263b40, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -220,7 +220,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 9dfc825aed78fcd4ba02077103263b40, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -291,8 +291,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   failAnimation: 1
+  canMoveToFirstPoint: 1
+  canDragAfterDrop: 0
   targetLayerOrder: 3
   animations: []
+  changeScaleOnDrop: 0
+  targetScaleOnDrop: {x: 0, y: 0, z: 0}
   OnGrap:
     m_PersistentCalls:
       m_Calls: []
@@ -379,7 +383,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 9dfc825aed78fcd4ba02077103263b40, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -466,7 +470,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 9dfc825aed78fcd4ba02077103263b40, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -537,8 +541,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   failAnimation: 1
+  canMoveToFirstPoint: 1
+  canDragAfterDrop: 0
   targetLayerOrder: 3
   animations: []
+  changeScaleOnDrop: 0
+  targetScaleOnDrop: {x: 0, y: 0, z: 0}
   OnGrap:
     m_PersistentCalls:
       m_Calls: []
@@ -659,7 +667,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 9dfc825aed78fcd4ba02077103263b40, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -730,8 +738,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   failAnimation: 1
+  canMoveToFirstPoint: 1
+  canDragAfterDrop: 0
   targetLayerOrder: 3
   animations: []
+  changeScaleOnDrop: 0
+  targetScaleOnDrop: {x: 0, y: 0, z: 0}
   OnGrap:
     m_PersistentCalls:
       m_Calls: []
@@ -852,7 +864,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 9dfc825aed78fcd4ba02077103263b40, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -923,8 +935,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   failAnimation: 1
+  canMoveToFirstPoint: 1
+  canDragAfterDrop: 0
   targetLayerOrder: 3
   animations: []
+  changeScaleOnDrop: 0
+  targetScaleOnDrop: {x: 0, y: 0, z: 0}
   OnGrap:
     m_PersistentCalls:
       m_Calls: []
@@ -1014,7 +1030,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 9dfc825aed78fcd4ba02077103263b40, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1085,8 +1101,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   failAnimation: 1
+  canMoveToFirstPoint: 1
+  canDragAfterDrop: 0
   targetLayerOrder: 3
   animations: []
+  changeScaleOnDrop: 0
+  targetScaleOnDrop: {x: 0, y: 0, z: 0}
   OnGrap:
     m_PersistentCalls:
       m_Calls: []
@@ -1173,7 +1193,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 9dfc825aed78fcd4ba02077103263b40, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1257,7 +1277,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 9dfc825aed78fcd4ba02077103263b40, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1344,7 +1364,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 9dfc825aed78fcd4ba02077103263b40, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1415,8 +1435,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   failAnimation: 1
+  canMoveToFirstPoint: 1
+  canDragAfterDrop: 0
   targetLayerOrder: 3
   animations: []
+  changeScaleOnDrop: 0
+  targetScaleOnDrop: {x: 0, y: 0, z: 0}
   OnGrap:
     m_PersistentCalls:
       m_Calls: []
@@ -1503,7 +1527,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 9dfc825aed78fcd4ba02077103263b40, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1587,7 +1611,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 9dfc825aed78fcd4ba02077103263b40, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1674,7 +1698,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 9dfc825aed78fcd4ba02077103263b40, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1745,8 +1769,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   failAnimation: 1
+  canMoveToFirstPoint: 1
+  canDragAfterDrop: 0
   targetLayerOrder: 3
   animations: []
+  changeScaleOnDrop: 0
+  targetScaleOnDrop: {x: 0, y: 0, z: 0}
   OnGrap:
     m_PersistentCalls:
       m_Calls: []
@@ -1836,7 +1864,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 9dfc825aed78fcd4ba02077103263b40, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1907,8 +1935,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   failAnimation: 1
+  canMoveToFirstPoint: 1
+  canDragAfterDrop: 0
   targetLayerOrder: 3
   animations: []
+  changeScaleOnDrop: 0
+  targetScaleOnDrop: {x: 0, y: 0, z: 0}
   OnGrap:
     m_PersistentCalls:
       m_Calls: []
@@ -1998,7 +2030,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 9dfc825aed78fcd4ba02077103263b40, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -2069,8 +2101,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   failAnimation: 1
+  canMoveToFirstPoint: 1
+  canDragAfterDrop: 0
   targetLayerOrder: 3
   animations: []
+  changeScaleOnDrop: 0
+  targetScaleOnDrop: {x: 0, y: 0, z: 0}
   OnGrap:
     m_PersistentCalls:
       m_Calls: []
@@ -2161,7 +2197,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 9dfc825aed78fcd4ba02077103263b40, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -2233,6 +2269,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   JustOnDrop: 0
   TargetPosition: {fileID: 2528094224843287350}
+  pointCreators: []
+  OnDrop:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!114 &2528094226089439418
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2246,6 +2286,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   SelfSprite: 0
+  dontAddRepetitious: 0
+  addAny: 0
   targetSprites:
   - {fileID: 21300000, guid: 892c55f1f25ad594c980cde78c3ca443, type: 3}
   - {fileID: 21300000, guid: 201bd7e80d6a1f6428162875a24a358e, type: 3}
@@ -2254,9 +2296,11 @@ MonoBehaviour:
   - {fileID: 21300000, guid: b03ee573368f0284cad1917a6b88b257, type: 3}
   texts: []
   TargetColor: 0
+  otherChangeType: []
   OnFindSprite:
     m_PersistentCalls:
       m_Calls: []
+  _addedSprites: []
 --- !u!1 &2528094226155900220
 GameObject:
   m_ObjectHideFlags: 0
@@ -2309,7 +2353,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 9dfc825aed78fcd4ba02077103263b40, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -2398,7 +2442,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 9dfc825aed78fcd4ba02077103263b40, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -2482,7 +2526,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 9dfc825aed78fcd4ba02077103263b40, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -2616,8 +2660,21 @@ MonoBehaviour:
   objectFinder:
   - {fileID: 2528094226089439418}
   collisionCheckers: []
+  collisionCheckersFail: []
+  buttons3D: []
   cardChecker: {fileID: 0}
+  match3: {fileID: 0}
   maxFind: 5
+  maxFail: 0
+  WhenFind:
+    m_PersistentCalls:
+      m_Calls: []
+  WhenFail:
+    m_PersistentCalls:
+      m_Calls: []
+  WhenWin:
+    m_PersistentCalls:
+      m_Calls: []
   emptyMixer: {fileID: 2528094226089439423}
   glass: {fileID: 2528094226551596015}
   targetGlass: {fileID: 2528094225021695792}
@@ -7056,6 +7113,10 @@ PrefabInstance:
       propertyPath: m_Color.r
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 7248263802263408728, guid: 6125aa4357e96294988da05c5cc1b44d, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 9dfc825aed78fcd4ba02077103263b40, type: 2}
     - target: {fileID: 7248263802263408729, guid: 6125aa4357e96294988da05c5cc1b44d, type: 3}
       propertyPath: m_RootOrder
       value: 1

@@ -105,6 +105,9 @@ MonoBehaviour:
   WhenFail:
     m_PersistentCalls:
       m_Calls: []
+  WhenWin:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &5508325131944260072
 GameObject:
   m_ObjectHideFlags: 0
@@ -157,7 +160,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 9dfc825aed78fcd4ba02077103263b40, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -316,7 +319,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 9dfc825aed78fcd4ba02077103263b40, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -363,6 +366,9 @@ MonoBehaviour:
   timeAnimation: 1
   target: {fileID: 7627318039253336560}
   playOnAwake: 0
+  OnAnimationCompelet:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &7627318037544248199
 GameObject:
   m_ObjectHideFlags: 0
@@ -641,6 +647,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   failAnimation: 0
+  canMoveToFirstPoint: 1
+  canDragAfterDrop: 0
   targetLayerOrder: 0
   animations:
   - {fileID: 7627318037543223107}
@@ -813,7 +821,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 9dfc825aed78fcd4ba02077103263b40, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -860,6 +868,9 @@ MonoBehaviour:
   timeAnimation: 1
   target: {fileID: 7627318038254896963}
   playOnAwake: 0
+  OnAnimationCompelet:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &7627318037697711150
 GameObject:
   m_ObjectHideFlags: 0
@@ -912,7 +923,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 9dfc825aed78fcd4ba02077103263b40, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -997,7 +1008,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 9dfc825aed78fcd4ba02077103263b40, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1044,6 +1055,9 @@ MonoBehaviour:
   timeAnimation: 1
   target: {fileID: 7627318037570604048}
   playOnAwake: 0
+  OnAnimationCompelet:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &7627318037738316640
 GameObject:
   m_ObjectHideFlags: 0
@@ -1205,6 +1219,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   JustOnDrop: 1
   TargetPosition: {fileID: 7627318037745090520}
+  pointCreators: []
+  OnDrop:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!114 &7627318037745090527
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1219,6 +1237,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   SelfSprite: 1
   dontAddRepetitious: 0
+  addAny: 0
   targetSprites: []
   texts: []
   TargetColor: 0
@@ -1226,6 +1245,7 @@ MonoBehaviour:
   OnFindSprite:
     m_PersistentCalls:
       m_Calls: []
+  _addedSprites: []
 --- !u!1 &7627318037745725954
 GameObject:
   m_ObjectHideFlags: 0
@@ -1315,7 +1335,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 9dfc825aed78fcd4ba02077103263b40, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1362,6 +1382,9 @@ MonoBehaviour:
   timeAnimation: 1
   target: {fileID: 7627318038751889966}
   playOnAwake: 0
+  OnAnimationCompelet:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &7627318037791280408
 GameObject:
   m_ObjectHideFlags: 0
@@ -1415,7 +1438,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 9dfc825aed78fcd4ba02077103263b40, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1462,6 +1485,9 @@ MonoBehaviour:
   timeAnimation: 1
   target: {fileID: 7627318037544248198}
   playOnAwake: 0
+  OnAnimationCompelet:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &7627318037794580419
 GameObject:
   m_ObjectHideFlags: 0
@@ -1546,7 +1572,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 9dfc825aed78fcd4ba02077103263b40, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1593,6 +1619,9 @@ MonoBehaviour:
   timeAnimation: 1
   target: {fileID: 7627318038900017147}
   playOnAwake: 0
+  OnAnimationCompelet:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &7627318037805934881
 GameObject:
   m_ObjectHideFlags: 0
@@ -1646,7 +1675,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 9dfc825aed78fcd4ba02077103263b40, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1693,6 +1722,9 @@ MonoBehaviour:
   timeAnimation: 1
   target: {fileID: 7627318037817389168}
   playOnAwake: 0
+  OnAnimationCompelet:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &7627318037817389169
 GameObject:
   m_ObjectHideFlags: 0
@@ -1878,6 +1910,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   failAnimation: 0
+  canMoveToFirstPoint: 1
+  canDragAfterDrop: 0
   targetLayerOrder: 0
   animations:
   - {fileID: 7627318038345399502}
@@ -2021,7 +2055,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 9dfc825aed78fcd4ba02077103263b40, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -2068,6 +2102,9 @@ MonoBehaviour:
   timeAnimation: 1
   target: {fileID: 7627318038932093383}
   playOnAwake: 0
+  OnAnimationCompelet:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &7627318037983810526
 GameObject:
   m_ObjectHideFlags: 0
@@ -2192,6 +2229,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   JustOnDrop: 1
   TargetPosition: {fileID: 7627318037983810525}
+  pointCreators: []
+  OnDrop:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!114 &7627318037983810524
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2206,6 +2247,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   SelfSprite: 1
   dontAddRepetitious: 0
+  addAny: 0
   targetSprites: []
   texts: []
   TargetColor: 0
@@ -2213,6 +2255,7 @@ MonoBehaviour:
   OnFindSprite:
     m_PersistentCalls:
       m_Calls: []
+  _addedSprites: []
 --- !u!1 &7627318038007481313
 GameObject:
   m_ObjectHideFlags: 0
@@ -2316,7 +2359,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 9dfc825aed78fcd4ba02077103263b40, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -2363,6 +2406,9 @@ MonoBehaviour:
   timeAnimation: 1
   target: {fileID: 7627318037794580418}
   playOnAwake: 0
+  OnAnimationCompelet:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &7627318038025727576
 GameObject:
   m_ObjectHideFlags: 0
@@ -2452,7 +2498,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 9dfc825aed78fcd4ba02077103263b40, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -2499,6 +2545,9 @@ MonoBehaviour:
   timeAnimation: 1
   target: {fileID: 7627318038733653603}
   playOnAwake: 0
+  OnAnimationCompelet:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &7627318038063647604
 GameObject:
   m_ObjectHideFlags: 0
@@ -2583,7 +2632,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 9dfc825aed78fcd4ba02077103263b40, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -2630,6 +2679,9 @@ MonoBehaviour:
   timeAnimation: 1
   target: {fileID: 7627318037637753888}
   playOnAwake: 0
+  OnAnimationCompelet:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &7627318038136763064
 GameObject:
   m_ObjectHideFlags: 0
@@ -2848,7 +2900,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 9dfc825aed78fcd4ba02077103263b40, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -2895,6 +2947,9 @@ MonoBehaviour:
   timeAnimation: 1
   target: {fileID: 7627318039396122441}
   playOnAwake: 0
+  OnAnimationCompelet:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &7627318038345399497
 GameObject:
   m_ObjectHideFlags: 0
@@ -2948,7 +3003,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 9dfc825aed78fcd4ba02077103263b40, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -2995,6 +3050,9 @@ MonoBehaviour:
   timeAnimation: 1
   target: {fileID: 7627318038571766605}
   playOnAwake: 0
+  OnAnimationCompelet:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &7627318038407913542
 GameObject:
   m_ObjectHideFlags: 0
@@ -3047,7 +3105,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 9dfc825aed78fcd4ba02077103263b40, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -3245,6 +3303,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   JustOnDrop: 1
   TargetPosition: {fileID: 7627318038478065875}
+  pointCreators: []
+  OnDrop:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!114 &7627318038478065874
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3259,6 +3321,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   SelfSprite: 1
   dontAddRepetitious: 0
+  addAny: 0
   targetSprites: []
   texts: []
   TargetColor: 0
@@ -3266,6 +3329,7 @@ MonoBehaviour:
   OnFindSprite:
     m_PersistentCalls:
       m_Calls: []
+  _addedSprites: []
 --- !u!1 &7627318038500445069
 GameObject:
   m_ObjectHideFlags: 0
@@ -3349,7 +3413,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 9dfc825aed78fcd4ba02077103263b40, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -3465,7 +3529,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 9dfc825aed78fcd4ba02077103263b40, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -3512,6 +3576,9 @@ MonoBehaviour:
   timeAnimation: 1
   target: {fileID: 7627318038500445068}
   playOnAwake: 0
+  OnAnimationCompelet:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &7627318038603967450
 GameObject:
   m_ObjectHideFlags: 0
@@ -3601,7 +3668,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 9dfc825aed78fcd4ba02077103263b40, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -3648,6 +3715,9 @@ MonoBehaviour:
   timeAnimation: 1
   target: {fileID: 7627318037550579896}
   playOnAwake: 0
+  OnAnimationCompelet:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &7627318038688715776
 GameObject:
   m_ObjectHideFlags: 0
@@ -3701,7 +3771,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 9dfc825aed78fcd4ba02077103263b40, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -3748,6 +3818,9 @@ MonoBehaviour:
   timeAnimation: 1
   target: {fileID: 7627318039457166638}
   playOnAwake: 0
+  OnAnimationCompelet:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &7627318038731175668
 GameObject:
   m_ObjectHideFlags: 0
@@ -3969,7 +4042,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 9dfc825aed78fcd4ba02077103263b40, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -4016,6 +4089,9 @@ MonoBehaviour:
   timeAnimation: 1
   target: {fileID: 7627318038063647611}
   playOnAwake: 0
+  OnAnimationCompelet:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &7627318038751889967
 GameObject:
   m_ObjectHideFlags: 0
@@ -4171,6 +4247,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   JustOnDrop: 1
   TargetPosition: {fileID: 7627318038779049143}
+  pointCreators: []
+  OnDrop:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!114 &7627318038779049142
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4185,6 +4265,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   SelfSprite: 1
   dontAddRepetitious: 0
+  addAny: 0
   targetSprites: []
   texts: []
   TargetColor: 0
@@ -4192,6 +4273,7 @@ MonoBehaviour:
   OnFindSprite:
     m_PersistentCalls:
       m_Calls: []
+  _addedSprites: []
 --- !u!1 &7627318038799987900
 GameObject:
   m_ObjectHideFlags: 0
@@ -4352,6 +4434,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   JustOnDrop: 1
   TargetPosition: {fileID: 7627318038815650954}
+  pointCreators: []
+  OnDrop:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!114 &7627318038815650953
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4366,6 +4452,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   SelfSprite: 1
   dontAddRepetitious: 0
+  addAny: 0
   targetSprites: []
   texts: []
   TargetColor: 0
@@ -4373,6 +4460,7 @@ MonoBehaviour:
   OnFindSprite:
     m_PersistentCalls:
       m_Calls: []
+  _addedSprites: []
 --- !u!1 &7627318038826003774
 GameObject:
   m_ObjectHideFlags: 0
@@ -4426,7 +4514,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 9dfc825aed78fcd4ba02077103263b40, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -4473,6 +4561,9 @@ MonoBehaviour:
   timeAnimation: 1
   target: {fileID: 7627318038927250074}
   playOnAwake: 0
+  OnAnimationCompelet:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &7627318038900017140
 GameObject:
   m_ObjectHideFlags: 0
@@ -4650,7 +4741,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 9dfc825aed78fcd4ba02077103263b40, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -4697,6 +4788,9 @@ MonoBehaviour:
   timeAnimation: 1
   target: {fileID: 7627318038136763071}
   playOnAwake: 0
+  OnAnimationCompelet:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &7627318038967815688
 GameObject:
   m_ObjectHideFlags: 0
@@ -4819,6 +4913,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   failAnimation: 0
+  canMoveToFirstPoint: 1
+  canDragAfterDrop: 0
   targetLayerOrder: 0
   animations:
   - {fileID: 7627318038826003779}
@@ -4921,7 +5017,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 9dfc825aed78fcd4ba02077103263b40, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -4968,6 +5064,9 @@ MonoBehaviour:
   timeAnimation: 1
   target: {fileID: 7627318037571350519}
   playOnAwake: 0
+  OnAnimationCompelet:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &7627318039110184486
 GameObject:
   m_ObjectHideFlags: 0
@@ -5090,6 +5189,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   failAnimation: 0
+  canMoveToFirstPoint: 1
+  canDragAfterDrop: 0
   targetLayerOrder: 0
   animations:
   - {fileID: 7627318038965803267}
@@ -5160,7 +5261,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 9dfc825aed78fcd4ba02077103263b40, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -5245,7 +5346,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 9dfc825aed78fcd4ba02077103263b40, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -5292,6 +5393,9 @@ MonoBehaviour:
   timeAnimation: 1
   target: {fileID: 7627318038929361308}
   playOnAwake: 0
+  OnAnimationCompelet:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &7627318039253336561
 GameObject:
   m_ObjectHideFlags: 0
@@ -5376,7 +5480,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 9dfc825aed78fcd4ba02077103263b40, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -5423,6 +5527,9 @@ MonoBehaviour:
   timeAnimation: 1
   target: {fileID: 7627318037828354108}
   playOnAwake: 0
+  OnAnimationCompelet:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &7627318039355934034
 GameObject:
   m_ObjectHideFlags: 0
@@ -5476,7 +5583,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 9dfc825aed78fcd4ba02077103263b40, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -5523,6 +5630,9 @@ MonoBehaviour:
   timeAnimation: 1
   target: {fileID: 7627318038202879712}
   playOnAwake: 0
+  OnAnimationCompelet:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &7627318039364325993
 GameObject:
   m_ObjectHideFlags: 0
@@ -5576,7 +5686,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 9dfc825aed78fcd4ba02077103263b40, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -5623,6 +5733,9 @@ MonoBehaviour:
   timeAnimation: 1
   target: {fileID: 7627318039000057105}
   playOnAwake: 0
+  OnAnimationCompelet:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &7627318039392312246
 GameObject:
   m_ObjectHideFlags: 0
@@ -5743,7 +5856,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 9dfc825aed78fcd4ba02077103263b40, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -5790,6 +5903,9 @@ MonoBehaviour:
   timeAnimation: 1
   target: {fileID: 7627318038179542886}
   playOnAwake: 0
+  OnAnimationCompelet:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &7627318039457166639
 GameObject:
   m_ObjectHideFlags: 0
@@ -5979,6 +6095,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   failAnimation: 0
+  canMoveToFirstPoint: 1
+  canDragAfterDrop: 0
   targetLayerOrder: 0
   animations:
   - {fileID: 7627318039161987542}
@@ -20808,6 +20926,10 @@ PrefabInstance:
       propertyPath: m_Color.r
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7248263802263408728, guid: 6125aa4357e96294988da05c5cc1b44d, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 9dfc825aed78fcd4ba02077103263b40, type: 2}
     - target: {fileID: 7248263802263408729, guid: 6125aa4357e96294988da05c5cc1b44d, type: 3}
       propertyPath: m_RootOrder
       value: 1

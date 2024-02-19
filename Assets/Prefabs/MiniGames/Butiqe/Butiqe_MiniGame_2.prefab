@@ -127,6 +127,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   JustOnDrop: 1
   TargetPosition: {fileID: 304176788942328495}
+  pointCreators: []
+  OnDrop:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!114 &304176788942328488
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -140,12 +144,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   SelfSprite: 1
+  dontAddRepetitious: 0
+  addAny: 0
   targetSprites: []
   texts: []
   TargetColor: 0
+  otherChangeType: []
   OnFindSprite:
     m_PersistentCalls:
       m_Calls: []
+  _addedSprites: []
 --- !u!1 &304176789015080353
 GameObject:
   m_ObjectHideFlags: 0
@@ -271,8 +279,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   failAnimation: 1
+  canMoveToFirstPoint: 1
+  canDragAfterDrop: 0
   targetLayerOrder: 1
   animations: []
+  changeScaleOnDrop: 0
+  targetScaleOnDrop: {x: 0, y: 0, z: 0}
   OnGrap:
     m_PersistentCalls:
       m_Calls: []
@@ -409,6 +421,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   JustOnDrop: 1
   TargetPosition: {fileID: 304176789239473699}
+  pointCreators: []
+  OnDrop:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!114 &304176789239473756
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -422,12 +438,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   SelfSprite: 1
+  dontAddRepetitious: 0
+  addAny: 0
   targetSprites: []
   texts: []
   TargetColor: 0
+  otherChangeType: []
   OnFindSprite:
     m_PersistentCalls:
       m_Calls: []
+  _addedSprites: []
 --- !u!1 &304176789254948939
 GameObject:
   m_ObjectHideFlags: 0
@@ -593,8 +613,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   failAnimation: 1
+  canMoveToFirstPoint: 1
+  canDragAfterDrop: 0
   targetLayerOrder: 1
   animations: []
+  changeScaleOnDrop: 0
+  targetScaleOnDrop: {x: 0, y: 0, z: 0}
   OnGrap:
     m_PersistentCalls:
       m_Calls: []
@@ -731,6 +755,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   JustOnDrop: 1
   TargetPosition: {fileID: 304176789417251664}
+  pointCreators: []
+  OnDrop:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!114 &304176789417251665
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -744,12 +772,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   SelfSprite: 1
+  dontAddRepetitious: 0
+  addAny: 0
   targetSprites: []
   texts: []
   TargetColor: 0
+  otherChangeType: []
   OnFindSprite:
     m_PersistentCalls:
       m_Calls: []
+  _addedSprites: []
 --- !u!1 &304176789531080142
 GameObject:
   m_ObjectHideFlags: 0
@@ -877,6 +909,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   JustOnDrop: 1
   TargetPosition: {fileID: 304176789531080143}
+  pointCreators: []
+  OnDrop:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!114 &304176789531080136
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -890,12 +926,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   SelfSprite: 1
+  dontAddRepetitious: 0
+  addAny: 0
   targetSprites: []
   texts: []
   TargetColor: 0
+  otherChangeType: []
   OnFindSprite:
     m_PersistentCalls:
       m_Calls: []
+  _addedSprites: []
 --- !u!1 &304176789622508638
 GameObject:
   m_ObjectHideFlags: 0
@@ -1023,6 +1063,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   JustOnDrop: 1
   TargetPosition: {fileID: 304176789622508639}
+  pointCreators: []
+  OnDrop:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!114 &304176789622508632
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1036,12 +1080,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   SelfSprite: 1
+  dontAddRepetitious: 0
+  addAny: 0
   targetSprites: []
   texts: []
   TargetColor: 0
+  otherChangeType: []
   OnFindSprite:
     m_PersistentCalls:
       m_Calls: []
+  _addedSprites: []
 --- !u!1 &304176789882538164
 GameObject:
   m_ObjectHideFlags: 0
@@ -1167,8 +1215,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   failAnimation: 1
+  canMoveToFirstPoint: 1
+  canDragAfterDrop: 0
   targetLayerOrder: 1
   animations: []
+  changeScaleOnDrop: 0
+  targetScaleOnDrop: {x: 0, y: 0, z: 0}
   OnGrap:
     m_PersistentCalls:
       m_Calls: []
@@ -1387,8 +1439,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   failAnimation: 1
+  canMoveToFirstPoint: 1
+  canDragAfterDrop: 0
   targetLayerOrder: 1
   animations: []
+  changeScaleOnDrop: 0
+  targetScaleOnDrop: {x: 0, y: 0, z: 0}
   OnGrap:
     m_PersistentCalls:
       m_Calls: []
@@ -1523,8 +1579,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   failAnimation: 1
+  canMoveToFirstPoint: 1
+  canDragAfterDrop: 0
   targetLayerOrder: 1
   animations: []
+  changeScaleOnDrop: 0
+  targetScaleOnDrop: {x: 0, y: 0, z: 0}
   OnGrap:
     m_PersistentCalls:
       m_Calls: []
@@ -1701,6 +1761,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   JustOnDrop: 1
   TargetPosition: {fileID: 304176790514299381}
+  pointCreators: []
+  OnDrop:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!114 &304176790514299382
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1714,12 +1778,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   SelfSprite: 1
+  dontAddRepetitious: 0
+  addAny: 0
   targetSprites: []
   texts: []
   TargetColor: 0
+  otherChangeType: []
   OnFindSprite:
     m_PersistentCalls:
       m_Calls: []
+  _addedSprites: []
 --- !u!1 &304176790539704763
 GameObject:
   m_ObjectHideFlags: 0
@@ -1847,6 +1915,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   JustOnDrop: 1
   TargetPosition: {fileID: 304176790539704756}
+  pointCreators: []
+  OnDrop:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!114 &304176790539704757
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1860,12 +1932,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   SelfSprite: 1
+  dontAddRepetitious: 0
+  addAny: 0
   targetSprites: []
   texts: []
   TargetColor: 0
+  otherChangeType: []
   OnFindSprite:
     m_PersistentCalls:
       m_Calls: []
+  _addedSprites: []
 --- !u!1 &304176790581806658
 GameObject:
   m_ObjectHideFlags: 0
@@ -1993,6 +2069,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   JustOnDrop: 1
   TargetPosition: {fileID: 304176790581806659}
+  pointCreators: []
+  OnDrop:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!114 &304176790581806716
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2006,12 +2086,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   SelfSprite: 1
+  dontAddRepetitious: 0
+  addAny: 0
   targetSprites: []
   texts: []
   TargetColor: 0
+  otherChangeType: []
   OnFindSprite:
     m_PersistentCalls:
       m_Calls: []
+  _addedSprites: []
 --- !u!1 &304176790654543746
 GameObject:
   m_ObjectHideFlags: 0
@@ -2137,8 +2221,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   failAnimation: 1
+  canMoveToFirstPoint: 1
+  canDragAfterDrop: 0
   targetLayerOrder: 1
   animations: []
+  changeScaleOnDrop: 0
+  targetScaleOnDrop: {x: 0, y: 0, z: 0}
   OnGrap:
     m_PersistentCalls:
       m_Calls: []
@@ -2275,6 +2363,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   JustOnDrop: 1
   TargetPosition: {fileID: 304176790655438102}
+  pointCreators: []
+  OnDrop:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!114 &304176790655438103
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2288,12 +2380,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   SelfSprite: 1
+  dontAddRepetitious: 0
+  addAny: 0
   targetSprites: []
   texts: []
   TargetColor: 0
+  otherChangeType: []
   OnFindSprite:
     m_PersistentCalls:
       m_Calls: []
+  _addedSprites: []
 --- !u!1 &304176790668916106
 GameObject:
   m_ObjectHideFlags: 0
@@ -2419,8 +2515,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   failAnimation: 1
+  canMoveToFirstPoint: 1
+  canDragAfterDrop: 0
   targetLayerOrder: 1
   animations: []
+  changeScaleOnDrop: 0
+  targetScaleOnDrop: {x: 0, y: 0, z: 0}
   OnGrap:
     m_PersistentCalls:
       m_Calls: []
@@ -2555,8 +2655,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   failAnimation: 1
+  canMoveToFirstPoint: 1
+  canDragAfterDrop: 0
   targetLayerOrder: 1
   animations: []
+  changeScaleOnDrop: 0
+  targetScaleOnDrop: {x: 0, y: 0, z: 0}
   OnGrap:
     m_PersistentCalls:
       m_Calls: []
@@ -2691,8 +2795,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   failAnimation: 1
+  canMoveToFirstPoint: 1
+  canDragAfterDrop: 0
   targetLayerOrder: 1
   animations: []
+  changeScaleOnDrop: 0
+  targetScaleOnDrop: {x: 0, y: 0, z: 0}
   OnGrap:
     m_PersistentCalls:
       m_Calls: []
@@ -2965,8 +3073,22 @@ MonoBehaviour:
   - {fileID: 304176790733351928}
   - {fileID: 304176789882538166}
   objectFinder: []
+  collisionCheckers: []
+  collisionCheckersFail: []
+  buttons3D: []
   cardChecker: {fileID: 0}
+  match3: {fileID: 0}
   maxFind: 9
+  maxFail: 0
+  WhenFind:
+    m_PersistentCalls:
+      m_Calls: []
+  WhenFail:
+    m_PersistentCalls:
+      m_Calls: []
+  WhenWin:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1001 &2322100368714891297
 PrefabInstance:
   m_ObjectHideFlags: 0

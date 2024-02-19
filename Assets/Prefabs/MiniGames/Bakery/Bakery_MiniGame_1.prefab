@@ -54,7 +54,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 9dfc825aed78fcd4ba02077103263b40, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -125,6 +125,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   failAnimation: 1
+  canMoveToFirstPoint: 1
+  canDragAfterDrop: 0
   targetLayerOrder: 6
   animations: []
   changeScaleOnDrop: 0
@@ -192,7 +194,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 9dfc825aed78fcd4ba02077103263b40, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -263,6 +265,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   failAnimation: 1
+  canMoveToFirstPoint: 1
+  canDragAfterDrop: 0
   targetLayerOrder: 6
   animations: []
   changeScaleOnDrop: 0
@@ -330,7 +334,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 9dfc825aed78fcd4ba02077103263b40, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -401,6 +405,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   failAnimation: 1
+  canMoveToFirstPoint: 1
+  canDragAfterDrop: 0
   targetLayerOrder: 6
   animations: []
   changeScaleOnDrop: 0
@@ -468,7 +474,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 9dfc825aed78fcd4ba02077103263b40, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -539,6 +545,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   failAnimation: 1
+  canMoveToFirstPoint: 1
+  canDragAfterDrop: 0
   targetLayerOrder: 6
   animations: []
   changeScaleOnDrop: 0
@@ -606,7 +614,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 9dfc825aed78fcd4ba02077103263b40, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -677,6 +685,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   failAnimation: 1
+  canMoveToFirstPoint: 1
+  canDragAfterDrop: 0
   targetLayerOrder: 6
   animations: []
   changeScaleOnDrop: 0
@@ -744,7 +754,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 9dfc825aed78fcd4ba02077103263b40, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -815,6 +825,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   failAnimation: 1
+  canMoveToFirstPoint: 1
+  canDragAfterDrop: 0
   targetLayerOrder: 6
   animations: []
   changeScaleOnDrop: 0
@@ -880,7 +892,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 9dfc825aed78fcd4ba02077103263b40, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -966,7 +978,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 9dfc825aed78fcd4ba02077103263b40, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1037,6 +1049,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   failAnimation: 1
+  canMoveToFirstPoint: 1
+  canDragAfterDrop: 0
   targetLayerOrder: 6
   animations: []
   changeScaleOnDrop: 0
@@ -1102,7 +1116,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 9dfc825aed78fcd4ba02077103263b40, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1188,7 +1202,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 9dfc825aed78fcd4ba02077103263b40, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1259,6 +1273,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   failAnimation: 1
+  canMoveToFirstPoint: 1
+  canDragAfterDrop: 0
   targetLayerOrder: 6
   animations: []
   changeScaleOnDrop: 0
@@ -1326,7 +1342,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 9dfc825aed78fcd4ba02077103263b40, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1397,6 +1413,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   failAnimation: 1
+  canMoveToFirstPoint: 1
+  canDragAfterDrop: 0
   targetLayerOrder: 6
   animations: []
   changeScaleOnDrop: 0
@@ -1464,7 +1482,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 9dfc825aed78fcd4ba02077103263b40, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1535,6 +1553,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   failAnimation: 1
+  canMoveToFirstPoint: 1
+  canDragAfterDrop: 0
   targetLayerOrder: 6
   animations: []
   changeScaleOnDrop: 0
@@ -1602,7 +1622,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 9dfc825aed78fcd4ba02077103263b40, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1673,6 +1693,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   failAnimation: 1
+  canMoveToFirstPoint: 1
+  canDragAfterDrop: 0
   targetLayerOrder: 6
   animations: []
   changeScaleOnDrop: 0
@@ -1783,7 +1805,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 9dfc825aed78fcd4ba02077103263b40, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1854,6 +1876,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   failAnimation: 1
+  canMoveToFirstPoint: 1
+  canDragAfterDrop: 0
   targetLayerOrder: 6
   animations: []
   changeScaleOnDrop: 0
@@ -1919,7 +1943,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 9dfc825aed78fcd4ba02077103263b40, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -2034,7 +2058,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 9dfc825aed78fcd4ba02077103263b40, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -2119,7 +2143,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 9dfc825aed78fcd4ba02077103263b40, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -2203,7 +2227,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 9dfc825aed78fcd4ba02077103263b40, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -2287,7 +2311,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 9dfc825aed78fcd4ba02077103263b40, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -2372,7 +2396,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 9dfc825aed78fcd4ba02077103263b40, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -2578,7 +2602,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 9dfc825aed78fcd4ba02077103263b40, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -2663,7 +2687,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 9dfc825aed78fcd4ba02077103263b40, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -2788,7 +2812,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 9dfc825aed78fcd4ba02077103263b40, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -2873,7 +2897,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 9dfc825aed78fcd4ba02077103263b40, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -2958,7 +2982,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 9dfc825aed78fcd4ba02077103263b40, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -3042,7 +3066,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 9dfc825aed78fcd4ba02077103263b40, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -3126,7 +3150,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 9dfc825aed78fcd4ba02077103263b40, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -3210,7 +3234,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 9dfc825aed78fcd4ba02077103263b40, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -3370,6 +3394,10 @@ PrefabInstance:
       propertyPath: m_SortingOrder
       value: 5
       objectReference: {fileID: 0}
+    - target: {fileID: 5922994614073700830, guid: 1a25bb6bf37aac046ac924c3390b8472, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 9dfc825aed78fcd4ba02077103263b40, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1a25bb6bf37aac046ac924c3390b8472, type: 3}
 --- !u!4 &1756783239455033393 stripped
@@ -3387,6 +3415,30 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 5922994614073700828, guid: 1a25bb6bf37aac046ac924c3390b8472, type: 3}
   m_PrefabInstance: {fileID: 1066326609055808927}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &6701055386846972998
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6701055386846972995}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1c52e47a855891541a2335d85644b840, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SelfSprite: 0
+  dontAddRepetitious: 0
+  addAny: 0
+  targetSprites:
+  - {fileID: 21300000, guid: 66edd25ddc4be5a4b80406c2e54fa09a, type: 3}
+  texts: []
+  TargetColor: 0
+  otherChangeType: []
+  OnFindSprite:
+    m_PersistentCalls:
+      m_Calls: []
+  _addedSprites: []
 --- !u!114 &6701055386846972999
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3402,26 +3454,7 @@ MonoBehaviour:
   JustOnDrop: 1
   TargetPosition: {fileID: 1756783239455033393}
   pointCreators: []
---- !u!114 &6701055386846972998
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6701055386846972995}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1c52e47a855891541a2335d85644b840, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  SelfSprite: 0
-  dontAddRepetitious: 0
-  targetSprites:
-  - {fileID: 21300000, guid: 66edd25ddc4be5a4b80406c2e54fa09a, type: 3}
-  texts: []
-  TargetColor: 0
-  otherChangeType: []
-  OnFindSprite:
+  OnDrop:
     m_PersistentCalls:
       m_Calls: []
 --- !u!1001 &1522892039801994755
@@ -3483,6 +3516,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5322278818465560693, guid: 1e59cca4c1363574695b78b5ebc75bac, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 9dfc825aed78fcd4ba02077103263b40, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1e59cca4c1363574695b78b5ebc75bac, type: 3}
 --- !u!4 &6701055386651412087 stripped
@@ -3501,6 +3538,10 @@ PrefabInstance:
       propertyPath: m_SortingOrder
       value: 5
       objectReference: {fileID: 0}
+    - target: {fileID: 5442125914799795133, guid: 686bf2a9b46cf1940a153c884111478d, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 9dfc825aed78fcd4ba02077103263b40, type: 2}
     - target: {fileID: 5442125914799795134, guid: 686bf2a9b46cf1940a153c884111478d, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -3566,6 +3607,30 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 5442125914799795135, guid: 686bf2a9b46cf1940a153c884111478d, type: 3}
   m_PrefabInstance: {fileID: 1691311603540524064}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &6701055386609358722
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6701055386609358751}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1c52e47a855891541a2335d85644b840, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SelfSprite: 0
+  dontAddRepetitious: 0
+  addAny: 0
+  targetSprites:
+  - {fileID: 21300000, guid: 6eb99260ab6c3d04bad9846d89ebb4ed, type: 3}
+  texts: []
+  TargetColor: 0
+  otherChangeType: []
+  OnFindSprite:
+    m_PersistentCalls:
+      m_Calls: []
+  _addedSprites: []
 --- !u!114 &6701055386609358723
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3581,26 +3646,7 @@ MonoBehaviour:
   JustOnDrop: 1
   TargetPosition: {fileID: 2469653924402186060}
   pointCreators: []
---- !u!114 &6701055386609358722
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6701055386609358751}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1c52e47a855891541a2335d85644b840, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  SelfSprite: 0
-  dontAddRepetitious: 0
-  targetSprites:
-  - {fileID: 21300000, guid: 6eb99260ab6c3d04bad9846d89ebb4ed, type: 3}
-  texts: []
-  TargetColor: 0
-  otherChangeType: []
-  OnFindSprite:
+  OnDrop:
     m_PersistentCalls:
       m_Calls: []
 --- !u!1001 &4906897930440109278
@@ -3662,6 +3708,10 @@ PrefabInstance:
       propertyPath: m_SortingOrder
       value: 5
       objectReference: {fileID: 0}
+    - target: {fileID: 1794161039303392351, guid: 955c552437a92704a8530e9fb7506f7d, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 9dfc825aed78fcd4ba02077103263b40, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 955c552437a92704a8530e9fb7506f7d, type: 3}
 --- !u!4 &5479596223633286993 stripped
@@ -3679,6 +3729,30 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 1794161039303392349, guid: 955c552437a92704a8530e9fb7506f7d, type: 3}
   m_PrefabInstance: {fileID: 4906897930440109278}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &6701055386918408326
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6701055386918408323}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1c52e47a855891541a2335d85644b840, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SelfSprite: 0
+  dontAddRepetitious: 0
+  addAny: 0
+  targetSprites:
+  - {fileID: 21300000, guid: b0657b3991a19324a9e5c018c6fb32ce, type: 3}
+  texts: []
+  TargetColor: 0
+  otherChangeType: []
+  OnFindSprite:
+    m_PersistentCalls:
+      m_Calls: []
+  _addedSprites: []
 --- !u!114 &6701055386918408327
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3694,26 +3768,7 @@ MonoBehaviour:
   JustOnDrop: 1
   TargetPosition: {fileID: 5479596223633286993}
   pointCreators: []
---- !u!114 &6701055386918408326
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6701055386918408323}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1c52e47a855891541a2335d85644b840, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  SelfSprite: 0
-  dontAddRepetitious: 0
-  targetSprites:
-  - {fileID: 21300000, guid: b0657b3991a19324a9e5c018c6fb32ce, type: 3}
-  texts: []
-  TargetColor: 0
-  otherChangeType: []
-  OnFindSprite:
+  OnDrop:
     m_PersistentCalls:
       m_Calls: []
 --- !u!1001 &6811508545605543975
@@ -3779,6 +3834,10 @@ PrefabInstance:
       propertyPath: m_SortingOrder
       value: 5
       objectReference: {fileID: 0}
+    - target: {fileID: 178376726931462454, guid: 0ff7db185ee744542bcdba2ac904d1c8, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 9dfc825aed78fcd4ba02077103263b40, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0ff7db185ee744542bcdba2ac904d1c8, type: 3}
 --- !u!4 &165599599901663769 stripped
@@ -3796,6 +3855,30 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 178376726931462452, guid: 0ff7db185ee744542bcdba2ac904d1c8, type: 3}
   m_PrefabInstance: {fileID: 6811508545605543975}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &6701055386451538198
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6701055386451538195}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1c52e47a855891541a2335d85644b840, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SelfSprite: 0
+  dontAddRepetitious: 0
+  addAny: 0
+  targetSprites:
+  - {fileID: 21300000, guid: c656f634bd121274eb450add6b75ce64, type: 3}
+  texts: []
+  TargetColor: 0
+  otherChangeType: []
+  OnFindSprite:
+    m_PersistentCalls:
+      m_Calls: []
+  _addedSprites: []
 --- !u!114 &6701055386451538199
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3811,26 +3894,7 @@ MonoBehaviour:
   JustOnDrop: 1
   TargetPosition: {fileID: 165599599901663769}
   pointCreators: []
---- !u!114 &6701055386451538198
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6701055386451538195}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1c52e47a855891541a2335d85644b840, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  SelfSprite: 0
-  dontAddRepetitious: 0
-  targetSprites:
-  - {fileID: 21300000, guid: c656f634bd121274eb450add6b75ce64, type: 3}
-  texts: []
-  TargetColor: 0
-  otherChangeType: []
-  OnFindSprite:
+  OnDrop:
     m_PersistentCalls:
       m_Calls: []
 --- !u!1001 &8579766975819901146
@@ -3892,6 +3956,10 @@ PrefabInstance:
       propertyPath: m_SortingOrder
       value: 5
       objectReference: {fileID: 0}
+    - target: {fileID: 3165919236226439801, guid: 869a5a6850eedbf438cf46c19790cdfb, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 9dfc825aed78fcd4ba02077103263b40, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 869a5a6850eedbf438cf46c19790cdfb, type: 3}
 --- !u!4 &6701055386952479420 stripped
@@ -3904,6 +3972,30 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 3165919236226439783, guid: 869a5a6850eedbf438cf46c19790cdfb, type: 3}
   m_PrefabInstance: {fileID: 8579766975819901146}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &6701055386952479392
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6701055386952479421}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1c52e47a855891541a2335d85644b840, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SelfSprite: 0
+  dontAddRepetitious: 0
+  addAny: 0
+  targetSprites:
+  - {fileID: 21300000, guid: c672290fafd9b804c879bfb4535ceb2f, type: 3}
+  texts: []
+  TargetColor: 0
+  otherChangeType: []
+  OnFindSprite:
+    m_PersistentCalls:
+      m_Calls: []
+  _addedSprites: []
 --- !u!114 &6701055386952479393
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3919,26 +4011,7 @@ MonoBehaviour:
   JustOnDrop: 1
   TargetPosition: {fileID: 8572690527114027379}
   pointCreators: []
---- !u!114 &6701055386952479392
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6701055386952479421}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1c52e47a855891541a2335d85644b840, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  SelfSprite: 0
-  dontAddRepetitious: 0
-  targetSprites:
-  - {fileID: 21300000, guid: c672290fafd9b804c879bfb4535ceb2f, type: 3}
-  texts: []
-  TargetColor: 0
-  otherChangeType: []
-  OnFindSprite:
+  OnDrop:
     m_PersistentCalls:
       m_Calls: []
 --- !u!4 &8572690527114027379 stripped
@@ -4005,6 +4078,10 @@ PrefabInstance:
       propertyPath: m_SortingOrder
       value: 5
       objectReference: {fileID: 0}
+    - target: {fileID: 2305859305500691870, guid: a5c5818edae21554ea8a809b6926bd86, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 9dfc825aed78fcd4ba02077103263b40, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a5c5818edae21554ea8a809b6926bd86, type: 3}
 --- !u!4 &6458292090600014664 stripped
@@ -4022,6 +4099,30 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 2305859305500691840, guid: a5c5818edae21554ea8a809b6926bd86, type: 3}
   m_PrefabInstance: {fileID: 9006883200681893789}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &6701055385894523392
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6701055385894523421}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1c52e47a855891541a2335d85644b840, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SelfSprite: 0
+  dontAddRepetitious: 0
+  addAny: 0
+  targetSprites:
+  - {fileID: 21300000, guid: a20f9ccecea75f94fad2dfa55bf029be, type: 3}
+  texts: []
+  TargetColor: 0
+  otherChangeType: []
+  OnFindSprite:
+    m_PersistentCalls:
+      m_Calls: []
+  _addedSprites: []
 --- !u!114 &6701055385894523393
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4037,25 +4138,6 @@ MonoBehaviour:
   JustOnDrop: 1
   TargetPosition: {fileID: 6458292090600014664}
   pointCreators: []
---- !u!114 &6701055385894523392
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6701055385894523421}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1c52e47a855891541a2335d85644b840, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  SelfSprite: 0
-  dontAddRepetitious: 0
-  targetSprites:
-  - {fileID: 21300000, guid: a20f9ccecea75f94fad2dfa55bf029be, type: 3}
-  texts: []
-  TargetColor: 0
-  otherChangeType: []
-  OnFindSprite:
+  OnDrop:
     m_PersistentCalls:
       m_Calls: []
