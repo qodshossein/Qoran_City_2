@@ -38,7 +38,7 @@ namespace Manager
             if (!string.IsNullOrEmpty(levelName))
             {
                 SpawnLevel(levelName);
-                if(levelName == "Shop")
+                if (levelName == "Shop" || levelName == "Home")
                     Camera.SetActive(false);
             }
             else

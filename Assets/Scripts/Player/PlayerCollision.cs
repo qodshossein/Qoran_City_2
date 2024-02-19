@@ -13,7 +13,7 @@ namespace Player
         private Quaternion _cameraFirstRot;
         private void OnTriggerEnter(Collider other)
         {
-            if(other.TryGetComponent(out ShopControl shop))
+            if(other.TryGetComponent(out Store shop))
             {
                 var playerPoint = shop.PlayerPoint;
                 var cameraPoint = shop.CameraPoint;
@@ -33,7 +33,7 @@ namespace Player
         }
         private void OnTriggerExit(Collider other)
         {
-            if (other.TryGetComponent(out ShopControl shop))
+            if (other.TryGetComponent(out Store shop))
             {
                 var camera = Camera.main.transform;
                 CameraMove.Instance.AnactiveFollow();

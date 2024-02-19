@@ -15,11 +15,8 @@ namespace Manager
         [SerializeField] private Button[] backToMainMenuButtons;
         [SerializeField] private Button shopButton;
         [SerializeField] private Button cityButton;
-        [SerializeField] private Button location1Button;
-        [SerializeField] private Button location2Button;
-        [SerializeField] private Button location3Button;
-        [SerializeField] private Button location4Button;
-        [SerializeField] private Button location5Button;
+        [SerializeField] private Button homeButton;
+        [SerializeField] private Button[] locationButtons;
 
         public Transform miniGameButtonHolder;
 
@@ -72,21 +69,16 @@ namespace Manager
                 InactivePanel("StartMenu");
                 ActivePanel("LocationSelectPanel");
             });
-            location1Button.onClick.AddListener(() => { InactivePanel("LocationSelectPanel"); ActivePanel("Location1");
-                PlayerPrefsManager.SetLocationNumber(1);
+            homeButton.onClick.AddListener(() =>
+            {
+                GameManager.Instance.LoadLevel("Home");
             });
-            location2Button.onClick.AddListener(() => { InactivePanel("LocationSelectPanel"); ActivePanel("Location2");
-                PlayerPrefsManager.SetLocationNumber(2);
-            });
-            location3Button.onClick.AddListener(() => { InactivePanel("LocationSelectPanel"); ActivePanel("Location3");
-                PlayerPrefsManager.SetLocationNumber(3);
-            });
-            location4Button.onClick.AddListener(() => { InactivePanel("LocationSelectPanel"); ActivePanel("Location4");
-                PlayerPrefsManager.SetLocationNumber(4);
-            });
-            location5Button.onClick.AddListener(() => { InactivePanel("LocationSelectPanel"); ActivePanel("Location5");
-                PlayerPrefsManager.SetLocationNumber(5);
-            });
+
+            for (int i = 0; i < locationButtons.Length; i++)
+            {
+                var number = i + 1;
+                locationButtons[i].onClick.AddListener(() => { ActiveLocation(number); });
+            }
         }
         private void OnDestroy()
         {
@@ -113,6 +105,19 @@ namespace Manager
             }
         }
         public GameObject GetPanel(string panelName) => _panelDic[panelName];
+        private void ActiveLocation(int numberLocation) 
+        {
+            for (int i = 0; i < locationButtons.Length; i++)
+            {
+                var number = i + 1;
+                InactivePanel("Location" + number);
+            }
+
+            InactivePanel("LocationSelectPanel");
+            ActivePanel("Location" + numberLocation);
+            ActivePanel("LocationPanel");
+            PlayerPrefsManager.SetLocationNumber(numberLocation);
+        }
 
         private void OnLevelCompelet() 
         {
