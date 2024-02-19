@@ -13,6 +13,7 @@ namespace Manager
 
         [SerializeField] private GameObject[] levels;
         [SerializeField] private Transform levelParent;
+        [SerializeField] private GameObject Camera;
 
         private Dictionary<string, GameObject> _levelsDict;
         private GameObject _activeLevel;
@@ -34,18 +35,47 @@ namespace Manager
         private void Start()
         {
             var levelName = PlayerPrefsManager.GetActiveLevelName();
-            //LoadLevel(levelName);
+            if (!string.IsNullOrEmpty(levelName))
+            {
+                SpawnLevel(levelName);
+                if(levelName == "Shop")
+                    Camera.SetActive(false);
+            }
+            else
+            {
+                var locationNumber = PlayerPrefsManager.GetLocationNumber();
+                if (locationNumber == 0)
+                    UIManager.Instance.ActivePanel("StartMenu");
+                else
+                    UIManager.Instance.ActivePanel("Location" +  locationNumber);
+            }
+        }
+        private void OnApplicationQuit()
+        {
+            PlayerPrefsManager.DeleteActiveLevelName();
+            PlayerPrefsManager.SetLocationNumber(0);
+        }
+        private void OnApplicationPause(bool pause)
+        {
+            if (pause)
+            {
+                PlayerPrefsManager.DeleteActiveLevelName();
+                PlayerPrefsManager.SetLocationNumber(0);
+            }
         }
 
         #region Level Controle
         public void LoadLevel(string name) 
         {
+            PlayerPrefsManager.SetActiveLevelName(name);
+            ResetLevel();
+        }
+        private void SpawnLevel(string name) 
+        {
             var level = _levelsDict[name];
 
             var levelSpawned = Instantiate(level, levelParent.position, levelParent.rotation, levelParent);
             _activeLevel = levelSpawned;
-
-            PlayerPrefsManager.SetActiveLevelName(name);
         }
 
         public void ResetLevel() 

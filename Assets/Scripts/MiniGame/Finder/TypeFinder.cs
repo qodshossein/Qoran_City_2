@@ -11,6 +11,7 @@ namespace MiniGame.Finder
     {
         public bool SelfSprite;
         public bool dontAddRepetitious;
+        public bool addAny;
         public Sprite[] targetSprites;
         public string[] texts;
         public ColorType TargetColor;
@@ -21,7 +22,7 @@ namespace MiniGame.Finder
         private SpriteRenderer _spriteRenderer;
         private Text _text;
 
-        private List<Sprite> _addedSprites;
+        [SerializeField] private List<Sprite> _addedSprites;
         private List<ColorType> _addedColors;
         private List<string> _addedTexts;
         private void Awake()
@@ -46,8 +47,8 @@ namespace MiniGame.Finder
             }
             if (TargetColor == color)
             {
-                OnFindSprite?.Invoke();
                 _addedColors.Add(color);
+                OnFindSprite?.Invoke();
                 return true;
             }
             return false;
@@ -66,8 +67,8 @@ namespace MiniGame.Finder
             {
                 if (_spriteRenderer.sprite == sprite)
                 {
-                    OnFindSprite?.Invoke();
                     _addedSprites.Add(sprite);
+                    OnFindSprite?.Invoke();
                     return true;
                 }
             }
@@ -75,8 +76,8 @@ namespace MiniGame.Finder
             {
                 if (targetSprites[i] == sprite)
                 {
-                    OnFindSprite?.Invoke();
                     _addedSprites.Add(sprite);
+                    OnFindSprite?.Invoke();
                     return true;
                 }
             }
@@ -97,8 +98,8 @@ namespace MiniGame.Finder
             {
                 if (_text.text == text)
                 {
-                    OnFindSprite?.Invoke();
                     _addedTexts.Add(text);
+                    OnFindSprite?.Invoke();
                     return true;
                 }
             }
@@ -106,12 +107,16 @@ namespace MiniGame.Finder
             {
                 if (texts[i] == text)
                 {
-                    OnFindSprite?.Invoke();
                     _addedTexts.Add(text);
+                    OnFindSprite?.Invoke();
                     return true;
                 }
             }
             return false;
         }
+
+        public Sprite[] GetSprites() => _addedSprites.ToArray();
+        public ColorType[] GetColors() => _addedColors.ToArray();
+        public string[] GetTexts() => _addedTexts.ToArray();
     }
 }

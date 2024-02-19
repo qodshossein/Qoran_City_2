@@ -8,54 +8,57 @@ using UnityEngine.UI;
 
 public class LangugeText : MonoBehaviour
 {
-    public List<LangugeHolder> langugeHolders;
+    public LangugeHolder[] langugeHolders;
 
     private bool _activeGame;
+    private Text _text;
+
+    private Dictionary<string, LangugeHolder> _langugeDic;
+    private void Awake()
+    {
+        _text = GetComponent<Text>();
+
+        _langugeDic = new Dictionary<string, LangugeHolder>();
+        for (int i = 0; i < langugeHolders.Length; i++)
+        {
+            _langugeDic.Add(langugeHolders[i].langugeName, langugeHolders[i]);
+        }
+    }
 
     private void Start()
     {
         _activeGame = true;
+        var langugeName = PlayerPrefsManager.GetLanguge();
+        SetLangugeText(langugeName);
+    }
 
-        var languge = PlayerPrefsManager.GetLanguge();
-        for (int i = 0; i < langugeHolders.Count; i++)
+    private void OnValidate()
+    {
+        if (langugeHolders == null || _activeGame) return;
+        _text = GetComponent<Text>();
+        for (int i = 0; i < langugeHolders.Length; i++)
         {
-            langugeHolders[i].textComponent.gameObject.SetActive(false);
-        }
-        for (int i = 0; i < langugeHolders.Count; i++) 
-        {
-            if(languge == langugeHolders[i].langugeName) 
+            if (langugeHolders[i].Active)
             {
-                langugeHolders[i].textComponent.gameObject.SetActive(true);
-                break;
+                var text = langugeHolders[i].text;
+                _text.text = text;
+                return;
             }
         }
     }
-    public void AddNewText(RTLTextMeshPro text, string name) 
-    {
-        var langugeHolder = new LangugeHolder();
-        langugeHolder.textComponent = text;
-        langugeHolder.langugeName = name;
-        langugeHolders.Add(langugeHolder);
-    }
-    private void OnValidate()
-    {
-        if(langugeHolders == null || _activeGame) return;
-        for (int i = 0; i < langugeHolders.Count; i++)
-        {
-            var component = langugeHolders[i].textComponent;
-            var text = langugeHolders[i].text;
 
-            component.text = text;
+    public void SetLangugeText(string langugeName) 
+    {
+        var langugeHolder = _langugeDic[langugeName];
+        var text = langugeHolder.text;
 
-            component.gameObject.SetActive(langugeHolders[i].Active);
-        }
+        _text.text = text;
     }
 }
 [System.Serializable]
 public class LangugeHolder 
 {
     public string langugeName;
-    public RTLTextMeshPro textComponent;
     public bool Active = true;
 
     [TextArea(5, 10)]

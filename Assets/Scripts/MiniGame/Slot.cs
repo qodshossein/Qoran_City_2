@@ -1,7 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
-using Tools;
+using Tools_QC;
 using UnityEngine;
+using UnityEngine.Events;
 
 namespace MiniGame
 {
@@ -11,6 +12,7 @@ namespace MiniGame
         public Transform TargetPosition;
         public PointCreator2D[] pointCreators;
         public bool CanDrop {  get; set; }
+        public UnityEvent OnDrop;
 
         private void Awake()
         {

@@ -1,6 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
-using Tools;
+using Tools_QC;
 using UnityEngine;
 using DG.Tweening;
 using UnityEngine.Events;
@@ -19,10 +19,20 @@ namespace MiniGame.DragAndDrop
             {
                 var spriteFinder = slot.GetComponent<TypeFinder>();
 
-                if (spriteFinder.Check(_spriteRenderer.sprite))
-                    TrueSlot(slot);
+                if (spriteFinder)
+                {
+                    if (spriteFinder.addAny)
+                        TrueSlot(slot);
+                    else
+                    {
+                        if (spriteFinder.Check(_spriteRenderer.sprite))
+                            TrueSlot(slot);
+                        else
+                            WrongSlot();
+                    }
+                }
                 else
-                    WrongSlot();
+                    TrueSlot(slot);
             }
             else
                 WrongSlot();

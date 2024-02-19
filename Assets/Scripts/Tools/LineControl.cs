@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace Tools
+namespace Tools_QC
 {
     public class LineControl : MonoBehaviour
     {

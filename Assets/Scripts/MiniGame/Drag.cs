@@ -2,7 +2,7 @@ using Tween;
 using DG.Tweening;
 using System.Collections;
 using System.Collections.Generic;
-using Tools;
+using Tools_QC;
 using UnityEngine;
 using UnityEngine.Events;
 
@@ -11,6 +11,8 @@ namespace MiniGame
     public class Drag : MonoBehaviour
     {
         [SerializeField] protected bool failAnimation;
+        [SerializeField] protected bool canMoveToFirstPoint = true;
+        [SerializeField] protected bool canDragAfterDrop;
         [SerializeField] protected int targetLayerOrder;
         [SerializeField] protected AnimationTween[] animations;
         [SerializeField] protected bool changeScaleOnDrop;
@@ -26,6 +28,8 @@ namespace MiniGame
         protected SpriteRenderer _spriteRenderer;
         protected int _firstLayer;
         protected Vector3 _firstScale;
+        protected Slot _slot;
+        protected Transform _firstParent;
 
         public bool CanDrag { get; set; }
         protected virtual void Start()
@@ -39,6 +43,8 @@ namespace MiniGame
 
             _firstScale = transform.localScale;
             CanDrag = true;
+
+            _firstParent = transform.parent;
         }
         protected virtual void Update()
         {
@@ -55,6 +61,12 @@ namespace MiniGame
             if (_spriteRenderer)
                 _spriteRenderer.sortingOrder = targetLayerOrder;
 
+            if (_slot) 
+            {
+                _slot.CanDrop = true;
+                _slot = null;
+            }
+            transform.parent = _firstParent;
             OnGrap?.Invoke();
         }
         protected virtual void OnMouseUp()
@@ -75,7 +87,6 @@ namespace MiniGame
 
         protected virtual void TrueSlot(Slot slot)
         {
-            OnDrop?.Invoke();
             if (slot.pointCreators.Length > 0)
             {
                 var randomIndex = Random.Range(0, slot.pointCreators.Length);
@@ -97,7 +108,8 @@ namespace MiniGame
 
             if (slot.JustOnDrop)
                 slot.CanDrop = false;
-            CanDrag = false;
+            if (!canDragAfterDrop)
+                CanDrag = false;
             MouseData.SlotObject = null;
 
             for (int i = 0; i < animations.Length; i++)
@@ -107,6 +119,10 @@ namespace MiniGame
 
             if (changeScaleOnDrop)
                 transform.DOScale(targetScaleOnDrop, 0.4f);
+
+            _slot = slot;
+            OnDrop?.Invoke();
+            slot.OnDrop?.Invoke();
         }
         protected virtual void WrongSlot()
         {
@@ -116,14 +132,16 @@ namespace MiniGame
                 transform.DOShakeScale(0.5f, 1, 15, 90).OnComplete(() =>
                 {
                     transform.DOScale(_firstScale, 0.1f);
-                    transform.DOLocalMove(_firstPos, 0.1f);
+                    if (canMoveToFirstPoint)
+                        transform.DOLocalMove(_firstPos, 0.1f);
                     if (_spriteRenderer)
                         _spriteRenderer.sortingOrder = _firstLayer;
                 });
             }
             else
             {
-                transform.DOLocalMove(_firstPos, 0.1f);
+                if (canMoveToFirstPoint)
+                    transform.DOLocalMove(_firstPos, 0.1f);
                 if (_spriteRenderer)
                     _spriteRenderer.sortingOrder = _firstLayer;
             }

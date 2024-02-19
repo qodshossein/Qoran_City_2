@@ -4,7 +4,7 @@ using UnityEngine;
 
 namespace Tools_QC
 {
-    public class PointCreator2D : MonoBehaviour
+    public class PointCreator3D : MonoBehaviour
     {
         [SerializeField] private float radius = 1;
 
@@ -15,10 +15,11 @@ namespace Tools_QC
             Gizmos.DrawWireSphere(transform.position, radius);
         }
 
-        public Vector2 GetPoint() 
+        public Vector3 GetPoint()
         {
             var point = Random.insideUnitSphere * radius;
             point += transform.position;
+            point.y = transform.position.y;
             return point;
         }
     }
