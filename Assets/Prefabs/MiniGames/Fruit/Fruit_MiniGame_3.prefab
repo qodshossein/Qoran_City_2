@@ -1324,7 +1324,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: "\u0650\uFED6\u064E\uFEE0\u064E\uFED3\u06E1\uFEDD\u0671 \u0650\u0651\uFE8F\u064E\uFEAE\u0650\uFE91
+  m_Text: "\u0650\uFED6\u064E\uFEE0\u064E\uFED4\u06E1\uFEDF\uFB50 \uFC62\uFE8F\u064E\uFEAE\u0650\uFE91
     \u064F\uFEAB\uFEEE\u064F\uFECB\u064E\uFE83 \u06E1\uFEDE\u064F\uFED7"
 --- !u!61 &2423674242990625970
 BoxCollider2D:
@@ -1467,9 +1467,9 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: "\u0650\uFEAA\u064E\uFED8\u064F\uFECB\u06E1\uFEDD\u0671 \uFEF2\u0650\uFED3
-    \u0650\uFE95\u0670\u064E\uFE99\u0670\u0640\u064E\u0651\uFED4\u064E\u0651\uFEE8\uFEDF\u0671
-    \u0650\u0651\uFEAE\u064E\uFEB7 \uFEE6\u0650\uFEE3\u064E\uFEED"
+  m_Text: "\u0650\uFEAA\u064E\uFED8\u064F\uFECC\u06E1\uFEDF\uFB50 \uFEF2\u0650\uFED3
+    \u0650\uFE96\u0670\u064E\uFE9C\u0670\u0640\uFC60\uFED4\uFC60\uFEE8\uFEDF\uFB50
+    \uFC62\uFEAE\u064E\uFEB7 \uFEE6\u0650\uFEE3\u064E\uFEED"
 --- !u!61 &2423674243376260913
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1581,7 +1581,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &2423674243521698247
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1643,7 +1643,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: "\u064E\uFED6\u064E\uFEE0\u064E\uFEA7 \uFE8E\u064E\uFEE3 \u0650\u0651\uFEAE\u064E\uFEB7
+  m_Text: "\u064E\uFED6\u064E\uFEE0\u064E\uFEA7 \uFE8E\u064E\uFEE3 \uFC62\uFEAE\u064E\uFEB7
     \uFEE6\u0650\uFEE3"
 --- !u!61 &2423674243521698244
 BoxCollider2D:
@@ -1710,7 +1710,19 @@ MonoBehaviour:
   otherChangeType: []
   OnFindSprite:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 2423674244515362460}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
   _addedSprites: []
 --- !u!1 &2423674243620940380
 GameObject:
@@ -1899,7 +1911,7 @@ MonoBehaviour:
     m_VerticalOverflow: 1
     m_LineSpacing: 1
   m_Text: "\u064E\uFEAA\u064E\uFEB4\u064E\uFEA3 \uFE8D\u064E\uFEAB\u0650\uFE87 \u064D\uFEAA\u0650\uFEB3\uFE8E\u064E\uFEA3
-    \u0650\u0651\uFEAE\u064E\uFEB7 \uFEE6\u0650\uFEE3\u064E\uFEED"
+    \uFC62\uFEAE\u064E\uFEB7 \uFEE6\u0650\uFEE3\u064E\uFEED"
 --- !u!61 &2423674243649113802
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2127,7 +2139,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: "\u064E\uFED6\u064E\uFEE0\u064E\uFEA7 \uFE8E\u064E\uFEE3 \u0650\u0651\uFEAE\u064E\uFEB7
+  m_Text: "\u064E\uFED6\u064E\uFEE0\u064E\uFEA7 \uFE8E\u064E\uFEE3 \uFC62\uFEAE\u064E\uFEB7
     \uFEE6\u0650\uFEE3"
 --- !u!61 &2423674243762935635
 BoxCollider2D:
@@ -2209,7 +2221,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &2423674243801945804
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2272,7 +2284,7 @@ MonoBehaviour:
     m_VerticalOverflow: 1
     m_LineSpacing: 1
   m_Text: "\u064E\uFEAA\u064E\uFEB4\u064E\uFEA3 \uFE8D\u064E\uFEAB\u0650\uFE87 \u064D\uFEAA\u0650\uFEB3\uFE8E\u064E\uFEA3
-    \u0650\u0651\uFEAE\u064E\uFEB7 \uFEE6\u0650\uFEE3\u064E\uFEED"
+    \uFC62\uFEAE\u064E\uFEB7 \uFEE6\u0650\uFEE3\u064E\uFEED"
 --- !u!61 &2423674243801945793
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2496,7 +2508,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &2423674244326550846
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2558,9 +2570,9 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: "\u0650\uFEAA\u064E\uFED8\u064F\uFECB\u06E1\uFEDD\u0671 \uFEF2\u0650\uFED3
-    \u0650\uFE95\u0670\u064E\uFE99\u0670\u0640\u064E\u0651\uFED4\u064E\u0651\uFEE8\uFEDF\u0671
-    \u0650\u0651\uFEAE\u064E\uFEB7 \uFEE6\u0650\uFEE3\u064E\uFEED"
+  m_Text: "\u0650\uFEAA\u064E\uFED8\u064F\uFECC\u06E1\uFEDF\uFB50 \uFEF2\u0650\uFED3
+    \u0650\uFE96\u0670\u064E\uFE9C\u0670\u0640\uFC60\uFED4\uFC60\uFEE8\uFEDF\uFB50
+    \uFC62\uFEAE\u064E\uFEB7 \uFEE6\u0650\uFEE3\u064E\uFEED"
 --- !u!61 &2423674244326550835
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2626,7 +2638,19 @@ MonoBehaviour:
   otherChangeType: []
   OnFindSprite:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 2423674243801945805}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
   _addedSprites: []
 --- !u!1 &2423674244515362460
 GameObject:
@@ -2648,7 +2672,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &2423674244515362451
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2710,8 +2734,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: " \u064E\uFE90\u064E\uFED7\u064E\uFEED \uFE8D\u064E\uFEAB\u0650\uFE87 \u064D\uFED6\u0650\uFEB3\uFE8E\u064E\uFECF
-    \u0650\u0651\uFEAE\u064E\uFEB7 \uFEE6\u0650\uFEE3\u064E\uFEED"
+  m_Text: "\u064E\uFE90\u064E\uFED7\u064E\uFEED \uFE8D\u064E\uFEAB\u0650\uFE87 \u064D\uFED6\u0650\uFEB3\uFE8E\u064E\uFECF
+    \uFC62\uFEAE\u064E\uFEB7 \uFEE6\u0650\uFEE3\u064E\uFEED"
 --- !u!61 &2423674244515362448
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2777,7 +2801,19 @@ MonoBehaviour:
   otherChangeType: []
   OnFindSprite:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 2423674244326550847}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
   _addedSprites: []
 --- !u!1 &2423674244673553403
 GameObject:
@@ -3184,7 +3220,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: "\u0650\uFED6\u064E\uFEE0\u064E\uFED3\u06E1\uFEDD\u0671 \u0650\u0651\uFE8F\u064E\uFEAE\u0650\uFE91
+  m_Text: "\u0650\uFED6\u064E\uFEE0\u064E\uFED4\u06E1\uFEDF\uFB50 \uFC62\uFE8F\u064E\uFEAE\u0650\uFE91
     \u064F\uFEAB\uFEEE\u064F\uFECB\u064E\uFE83 \u06E1\uFEDE\u064F\uFED7"
 --- !u!61 &2423674244999328213
 BoxCollider2D:
@@ -3251,7 +3287,19 @@ MonoBehaviour:
   otherChangeType: []
   OnFindSprite:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 2423674243521698240}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
   _addedSprites: []
 --- !u!1 &2423674245020080120
 GameObject:
@@ -3334,8 +3382,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: " \u064E\uFE90\u064E\uFED7\u064E\uFEED \uFE8D\u064E\uFEAB\u0650\uFE87 \u064D\uFED6\u0650\uFEB3\uFE8E\u064E\uFECF
-    \u0650\u0651\uFEAE\u064E\uFEB7 \uFEE6\u0650\uFEE3\u064E\uFEED"
+  m_Text: "\u064E\uFE90\u064E\uFED7\u064E\uFEED \uFE8D\u064E\uFEAB\u0650\uFE87 \u064D\uFED6\u0650\uFEB3\uFE8E\u064E\uFECF
+    \uFC62\uFEAE\u064E\uFEB7 \uFEE6\u0650\uFEE3\u064E\uFEED"
 --- !u!61 &2423674245020080125
 BoxCollider2D:
   m_ObjectHideFlags: 0

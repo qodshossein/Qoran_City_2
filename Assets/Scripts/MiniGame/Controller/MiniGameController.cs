@@ -60,6 +60,8 @@ public class MiniGameController : MonoBehaviour
         {
             collisionCheckersFail[i].OnHit.AddListener(OnFail);
         }
+
+        UIManager.Instance.ActivePanel("Start");
     }
     private void OnDestroy()
     {

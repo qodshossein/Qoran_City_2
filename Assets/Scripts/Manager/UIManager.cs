@@ -10,6 +10,7 @@ namespace Manager
         public static UIManager Instance {  get; private set; }
 
         [SerializeField] private PanelHolder[] panelHolders;
+        [SerializeField] private Button startButton;
         [SerializeField] private Button[] resetLevelButtons;
         [SerializeField] private Button[] nextLevelButtons;
         [SerializeField] private Button[] backToMainMenuButtons;
@@ -32,12 +33,18 @@ namespace Manager
             {
                 _panelDic.Add(panelHolders[i].PanelName, panelHolders[i].Panel);
             }
-
-            GameManager.Instance.OnLevelCompelet += OnLevelCompelet;
-            GameManager.Instance.OnLevelFail += OnLevelFail;
         }
         private void Start()
         {
+            GameManager.Instance.OnLevelStart += OnLevelStart;
+            GameManager.Instance.OnLevelCompelet += OnLevelCompelet;
+            GameManager.Instance.OnLevelFail += OnLevelFail;
+
+            startButton.onClick.AddListener(() =>
+            {
+                GameManager.Instance.LevelStart();
+            });
+
             for (int i = 0; i < resetLevelButtons.Length; i++)
             {
                 resetLevelButtons[i].onClick.AddListener(() =>
@@ -119,6 +126,11 @@ namespace Manager
             PlayerPrefsManager.SetLocationNumber(numberLocation);
         }
 
+        private void OnLevelStart() 
+        {
+            InactivePanel("Start");
+            ActivePanel("GamePlay");
+        }
         private void OnLevelCompelet() 
         {
             ActivePanel("Win");

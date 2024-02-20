@@ -81,8 +81,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: "\u06E1\uFEAE\u064E\uFEA3\u06E1\uFEE5\u0671\u064E\uFEED \u064E\uFEDA\u0650\u0651\uFE91\u064E\uFEAE\u0650\uFEDF
-    \u0650\u0651\uFEDE\u064E\uFEBC\u064E\uFED3"
+  m_Text: "\u06E1\uFEAE\u064E\uFEA4\u06E1\uFEE7\uFB50\u064E\uFEED \u064E\uFEDA\uFC62\uFE91\u064E\uFEAE\u0650\uFEDF
+    \uFC62\uFEDE\u064E\uFEBC\u064E\uFED3"
 --- !u!61 &3425508933474918593
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -382,8 +382,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: "\u064F\uFEAE\u064E\uFE97\u06E1\uFE8F\u064E\uFE83\u06E1\uFEDD\u0671 \u064E\uFEEE\u064F\uFEEB
-    \u064E\uFEDA\u064E\uFE8C\u0650\uFEE7\uFE8E\u064E\uFEB7 \u0651\u064E\uFEE5\u0650\uFE87"
+  m_Text: "\u064F\uFEAE\u064E\uFE98\u06E1\uFE91\u064E\u06E1\uFEF7\uFB50 \u064E\uFEEE\u064F\uFEEB
+    \u064E\uFEDA\u064E\uFE8C\u0650\uFEE7\uFE8E\u064E\uFEB7 \uFC60\uFEE5\u0650\uFE87"
 --- !u!61 &8337448040392865669
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -533,8 +533,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: "\u06E1\uFEAE\u064E\uFEA3\u06E1\uFEE5\u0671\u064E\uFEED \u064E\uFEDA\u0650\u0651\uFE91\u064E\uFEAE\u0650\uFEDF
-    \u0650\u0651\uFEDE\u064E\uFEBC\u064E\uFED3"
+  m_Text: "\u06E1\uFEAE\u064E\uFEA4\u06E1\uFEE7\uFB50\u064E\uFEED \u064E\uFEDA\uFC62\uFE91\u064E\uFEAE\u0650\uFEDF
+    \uFC62\uFEDE\u064E\uFEBC\u064E\uFED3"
 --- !u!61 &4805281150875614430
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -873,8 +873,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: "\u064E\uFEAE\u064E\uFE9B\u06E1\uFEEE\u064E\uFEDB\u06E1\uFEDD\u0671 \u064E\uFED9\u0670\u064E\uFEE5\u06E1\uFEF2\u064E\uFEC3\u06E1\uFEC9\u064E\uFE83
-    \uFE82\u0651\u064E\uFEE7\u0650\uFE87"
+  m_Text: "\u064E\uFEAE\u064E\uFE9B\u06E1\uFEEE\u064E\uFEDC\u06E1\uFEDF\uFB50 \u064E\uFEDA\u0670\u064E\uFEE8\u06E1\uFEF4\u064E\uFEC4\u06E1\uFECB\u064E\uFE83
+    \uFE82\uFC60\uFEE7\u0650\uFE87"
 --- !u!61 &2555393190784072746
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1035,8 +1035,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: "\u064E\uFEAE\u064E\uFE9B\u06E1\uFEEE\u064E\uFEDB\u06E1\uFEDD\u0671 \u064E\uFED9\u0670\u064E\uFEE5\u06E1\uFEF2\u064E\uFEC3\u06E1\uFEC9\u064E\uFE83
-    \uFE82\u0651\u064E\uFEE7\u0650\uFE87"
+  m_Text: "\u064E\uFEAE\u064E\uFE9B\u06E1\uFEEE\u064E\uFEDC\u06E1\uFEDF\uFB50 \u064E\uFEDA\u0670\u064E\uFEE8\u06E1\uFEF4\u064E\uFEC4\u06E1\uFECB\u064E\uFE83
+    \uFE82\uFC60\uFEE7\u0650\uFE87"
 --- !u!61 &8671595139496008079
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2435,8 +2435,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: "\u064F\uFEAE\u064E\uFE97\u06E1\uFE8F\u064E\uFE83\u06E1\uFEDD\u0671 \u064E\uFEEE\u064F\uFEEB
-    \u064E\uFEDA\u064E\uFE8C\u0650\uFEE7\uFE8E\u064E\uFEB7 \u0651\u064E\uFEE5\u0650\uFE87"
+  m_Text: "\u064F\uFEAE\u064E\uFE98\u06E1\uFE91\u064E\u06E1\uFEF7\uFB50 \u064E\uFEEE\u064F\uFEEB
+    \u064E\uFEDA\u064E\uFE8C\u0650\uFEE7\uFE8E\u064E\uFEB7 \uFC60\uFEE5\u0650\uFE87"
 --- !u!61 &6991886245171173131
 BoxCollider2D:
   m_ObjectHideFlags: 0

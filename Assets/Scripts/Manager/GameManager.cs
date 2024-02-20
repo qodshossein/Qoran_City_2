@@ -47,7 +47,10 @@ namespace Manager
                 if (locationNumber == 0)
                     UIManager.Instance.ActivePanel("StartMenu");
                 else
+                {
+                    UIManager.Instance.ActivePanel("LocationPanel");
                     UIManager.Instance.ActivePanel("Location" +  locationNumber);
+                }
             }
         }
         private void OnApplicationQuit()
